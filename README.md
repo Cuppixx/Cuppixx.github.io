@@ -1,8 +1,9 @@
 # Cuppixx.github.io
-My personal blog and portfolio.
+My personal blog and portfolio. Last Updated on: date: 03 October 2024
 
 
 ---
+
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Assets](#assets)
@@ -26,8 +27,10 @@ I love turning ideas into interactive, polished experiences and thrive in enviro
 
 <a name="assets_godot"></a>
 ### Godot Assets
+
 ---
 ---
+
 ### Project: KoalaTime_Take-A-Break
 **Date:** _March 14th - May 19th 2024 [Done]_
 
@@ -60,8 +63,10 @@ The project itself wasn't what I would consider difficult; there were no challen
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/KoalaTime_Take-A-Break)
+  
 ---
 ---
+
 ### Project: PandaTime_Take-A-Break
 **Date:** _March 14th - August 4th 2024 [Done]_
 
@@ -96,9 +101,12 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/PandaTime_Take-A-Break)
+  
 ---
 ---
+
 ### Project: RidiculousCodingCuppixxVersion
+
 ---
 ---
 
@@ -107,6 +115,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 <a name="games_godot"></a>
 ### Godot Games
+
 ---
 ---
 
@@ -147,5 +156,6 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
 - [Project Repository](#)
 - [Live Demo / Website](#)
 - [Video / Showcase](#)
+  
 ---
 ---

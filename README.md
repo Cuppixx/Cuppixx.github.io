@@ -1,5 +1,5 @@
 # Cuppixx.github.io
-My personal blog and portfolio. Last Updated on: date: 03 October 2024
+My personal blog and portfolio. Last Updated on: 03 October 2024
 
 
 ---

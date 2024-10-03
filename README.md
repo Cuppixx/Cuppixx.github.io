@@ -1,16 +1,17 @@
 # Cuppixx.github.io
-My personal blog and portfolio. Last Updated on: 03 October 2024
-
+__My personal blog and portfolio__. Last Updated on: October 04th 2024.
 
 ---
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Assets](#assets)
-    1. [Godot Assets](#assets_godot)
-3. [Games](#games)
-    1. [Godot Games](#games_godot)
+2. [Projects](#projects)
+3. [Appendix](#appendix)
 
+## Table of projects
+1. [KoalaTime_Take-A-Break](#koala_time)
+2. [RidiculousCodingCuppixxVersion](#ridiculous_coding)
+3. [PandaTime_Take-A-Break](#panda_time)
 ---
 
 <a name="introduction"></a>
@@ -20,21 +21,21 @@ I also have foundational knowledge in the fields of networking, internet applica
 
 I love turning ideas into interactive, polished experiences and thrive in environments that challenge my creativity and problem-solving skills.
 
----
+<a name="projects"></a>
+# Projects
+Below is a list of projects I have worked on, either independently or as part of a team. These projects include assets, games, software, and templates.
+The projects are not listed in any particular order.
+ 
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 
-<a name="assets"></a>
-## Assets Overview
-
-<a name="assets_godot"></a>
-### Godot Assets
-
----
----
-
-### Project: KoalaTime_Take-A-Break
-**Date:** _March 14th - May 19th 2024 [Done]_
+<a name="koala_time"></a>
+## Project: KoalaTime_Take-A-Break
+**Date:** _March 14th 2024 - May 19th 2024_
 
 **Project Type:** _Personal, Professional_
+
+**Project Category:** _Asset_
 
 **Technologies Used:**  
 `Godot Engine`, `GDScript`
@@ -45,17 +46,17 @@ _KoalaTime is an asset I originally developed for personal use and later publish
 
 ##### Key Contributions
 
-- _Solo Development_
+- _Solo development._
 
 ##### Challenges & Solutions
 
-- _None_
+- _None._
 
 The project itself wasn't what I would consider difficult; there were no challenges that caused me to get stuck during development. However, a few notable features, while not challenging, were interesting to implement. One of these was a recursive algorithm that searches through the project’s file structure to collect any images the user has provided, allowing for a highly flexible file structure. No matter how complex or nested, it will return every image. This project was also my very first Godot asset/addon, but thanks to the documentation and my general understanding of how Godot assets work, it served as an easy and smooth introduction to Godot development.
 
 ##### Results & Impact
 
-- _As of October 2nd, 2024, the project has received a total of 3 stars on GitHub._
+- _As of October 2024, the project has received a total of 3 stars on GitHub._
 - _Throughout its development the project has had over 300 unique visitors, according to GitHub's traffic tool._
 - _After the last commit, the project had an averaged 1 to 2 unique visitors every two weeks, again based on data from GitHub's traffic tool._
 - _Feedback from various Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional. The overall concept was well received, and several streamers mentioned they enjoy using it._
@@ -67,10 +68,61 @@ The project itself wasn't what I would consider difficult; there were no challen
 ---
 ---
 
-### Project: PandaTime_Take-A-Break
-**Date:** _March 14th - August 4th 2024 [Done]_
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="ridiculous_coding"></a>
+## Project: RidiculousCodingCuppixxVersion
+**Date:** _February 26th 2024 - October 2024_
 
 **Project Type:** _Personal, Professional_
+
+**Project Category:** _Asset_
+
+**Technologies Used:**  
+`Godot Engine`, `GDScript`
+
+##### Overview
+
+_A brief description of the project (2-3 sentences), highlighting the purpose, goals, and key features._
+
+##### Key Contributions
+
+- _Solo development on my fork._ 
+- _Fixing existing problems like the state of buttons not getting loaded on startup._
+- _Developed and added an extensive settings menu._
+- _Added new and requested features._
+
+##### Challenges & Solutions
+
+- _Window size not working._
+- _Understanding the original code._
+
+##### Results & Impact
+
+- _As of October 2024, the project has 13 stars on GitHub._
+- _Throughout its development the project has had over 2000 unique visitors, according to GitHub's traffic tool._
+- _After the last commit, the project had an averaged of 5 unique visitors every two weeks, again based on data from GitHub's traffic tool._
+- _Feedback from Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional._
+- _Users were pleased with the extensive customization options available and, after some dialogue, recommended features they would love to see in the asset. Many of these features were later implemented, and the additions were well received and appreciated._
+
+##### Links
+
+- [Project Repository](https://github.com/Cuppixx/RidiculousCodingCuppixxVersion)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="panda_time"></a>
+## Project: PandaTime_Take-A-Break
+**Date:** _March 14th 2024 - August 4th 2024_
+
+**Project Type:** _Personal, Professional_
+
+**Project Category:** _Asset_
 
 **Technologies Used:**  
 `Godot Engine`, `GDScript`
@@ -83,7 +135,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 ##### Key Contributions
 
-- _Solo Development_
+- _Solo development._
 
 ##### Challenges & Solutions
 
@@ -92,7 +144,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 ##### Results & Impact
 
-- _As of October 2nd, 2024, the project has no stars on GitHub._
+- _As of October 2024, the project has no stars on GitHub._
 - _Throughout its development the project has had over 150 unique visitors, according to GitHub's traffic tool._
 - _After the last commit, the project had an averaged 0 to 1 unique visitors every two weeks, again based on data from GitHub's traffic tool._
 - _Feedback from 2 Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional. The overall concept was well received._
@@ -105,28 +157,18 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 ---
 ---
 
-### Project: RidiculousCodingCuppixxVersion
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 
----
----
+<a name="appendix"></a>
+# Appendix
 
-<a name="games"></a>
-## Games Overview
-
-<a name="games_godot"></a>
-### Godot Games
-
----
----
-
-
-
-
-
-# Portfolio Project Template
-**Date:** _Start Date - End Date or 'Ongoing'_
+## Portfolio Project Template
+**Date:** _Start Date - End Date_
 
 **Project Type:** _Personal, Academic, Professional, etc._
+
+**Project Category:** _Asset, Game, Software, Template, etc._
 
 **Technologies Used:**  
 `Language/Framework/Tool 1`, `Language/Framework/Tool 2`, `Language/Framework/Tool 3`
@@ -159,3 +201,6 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
   
 ---
 ---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)

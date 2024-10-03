@@ -12,6 +12,7 @@ __My personal blog and portfolio__. Last Updated on: October 04th 2024.
 1. [KoalaTime_Take-A-Break](#koala_time)
 2. [RidiculousCodingCuppixxVersion](#ridiculous_coding)
 3. [PandaTime_Take-A-Break](#panda_time)
+   
 ---
 
 <a name="introduction"></a>

@@ -61,7 +61,7 @@ _KoalaTime is an asset I originally developed for personal use and later publish
 
 - _None._
 
-The project itself wasn't what I would consider difficult; there were no challenges that caused me to get stuck during development. However, a few notable features, while not challenging, were interesting to implement. One of these was a recursive algorithm that searches through the project’s file structure to collect any images the user has provided, allowing for a highly flexible file structure. No matter how complex or nested, it will return every image. This project was also my very first Godot asset/addon, but thanks to the documentation and my general understanding of how Godot assets work, it served as an easy and smooth introduction to Godot development.
+The project itself wasn't what I would consider difficult; there were no challenges that caused me to get stuck during development. However, a few notable features, while not challenging, were interesting to implement. One of these was a recursive algorithm that searches through the project’s file structure to collect any images the user has provided, allowing for a highly flexible file structure. No matter how complex or nested, it will return every image.
 
 ##### Results & Impact
 
@@ -95,14 +95,18 @@ The project itself wasn't what I would consider difficult; there were no challen
 
 ##### Overview
 
-_A brief description of the project (2-3 sentences), highlighting the purpose, goals, and key features._
+_Ridiculous Coding is an asset I forked to expand upon. It adds flashy and ridiculous visual effects, as well as an XP system, to the Godot engine. The asset is designed to make the coding process more engaging and fun, offering numerous customization options to allow users to adjust the level of ridiculousness to suit their preferences._
 
 ##### Key Contributions
 
 - _Solo development on my fork._
-- _Fixing existing problems like the state of buttons not getting loaded on startup._
-- _Developed and added an extensive settings menu._
-- _Added new and requested features._
+- _I fixed a few known issues, such as the state of buttons not being loaded on startup._
+- _I developed and added an extensive settings menu._
+- _I added new features and settings based on user requests._
+
+Overall, all my contributions were aimed at transforming the asset into my own version, allowing as many users as possible to use the addon and toggle various settings to tailor the plugin to their preferences. Feedback on the original plugin indicated that some users were reluctant to use it due to specific settings, implementations, visuals, or sounds they didn't like. As a result, I reworked and recreated the asset. 
+
+This project was also my very first Godot asset, and thanks to the documentation and my quick understanding of how Godot assets work, it provided an easy and smooth introduction to Godot development.
 
 ##### Challenges & Solutions
 
@@ -111,7 +115,7 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
 
 ##### Results & Impact
 
-- _As of October 2024, the project has 13 stars on GitHub._
+- _As of October 2024, the project has 13 stars, making it the most popular fork of the original asset._
 - _Throughout its development the project has had over 2000 unique visitors, according to GitHub's traffic tool._
 - _After the last commit, the project had an averaged of 5 unique visitors every two weeks, again based on data from GitHub's traffic tool._
 - _Feedback from Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional._

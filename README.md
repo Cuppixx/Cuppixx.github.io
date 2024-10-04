@@ -1,7 +1,7 @@
 # Cuppixx.github.io - Portfolio
 __My personal blog and portfolio__. Last Updated on: October 04th 2024.
 
-- __Name:__ David; alias Cuppixx
+- __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
 - __Contact Information:__ _cuppixd@gmx.de_
 - __Location:__ Germany

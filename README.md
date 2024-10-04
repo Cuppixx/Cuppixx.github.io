@@ -106,12 +106,14 @@ _Ridiculous Coding is an asset I forked to expand upon. It adds flashy and ridic
 
 Overall, all my contributions were aimed at transforming the asset into my own version, allowing as many users as possible to use the addon and toggle various settings to tailor the plugin to their preferences. Feedback on the original plugin indicated that some users were reluctant to use it due to specific settings, implementations, visuals, or sounds they didn't like. As a result, I reworked and recreated the asset. 
 
-This project was also my very first Godot asset, and thanks to the documentation and my quick understanding of how Godot assets work, it provided an easy and smooth introduction to Godot development.
+This project was also my very first Godot asset. but thanks to the documentation and a quick understanding of how Godot assets work, it provided an easy and smooth introduction to Godot's asset development.
 
 ##### Challenges & Solutions
 
-- _Window size not working._
-- _Understanding the original code._
+- _Since I used an existing asset for my first Godot asset, I had to work through a lot of the pre-written code and logic to understand the structure of the original project. This was necessary to effectively implement my own logic into the code flow._
+   - _Thanks to the clean code of the original asset, I was able to follow the entire workflow from the code's entry point, which allowed me to understand the project's code as a whole._ 
+- _Midway through development, a problem arose with the settings window, where a few users reported that it was being cut off. This issue seemed unique to certain users, but there was no clear, overlapping context that could have caused it for those specific individuals._
+   - _After some research by me and a Twitch streamer, we were able to confirm that the issue was caused by the Godot engine itself. As a result, the issue wasn't pursued further._ 
 
 ##### Results & Impact
 

@@ -1,5 +1,10 @@
-# Cuppixx.github.io
+# Cuppixx.github.io - Portfolio
 __My personal blog and portfolio__. Last Updated on: October 04th 2024.
+
+- __Name:__ David Borgert; alias Cuppixx
+- __Bio:__ Hobbyist game developer and IT/software student
+- __Contact Information:__ _cuppixd@gmx.de_
+- __Location:__ Germany
 
 ---
 
@@ -17,10 +22,12 @@ __My personal blog and portfolio__. Last Updated on: October 04th 2024.
 
 <a name="introduction"></a>
 ## Introduction and Overview
-Hi, I'm Cuppixx, a passionate hobbyist game developer and IT/software student with a focus on game design, development, and software engineering. My expertise spans across multiple technologies, including GDScript, C++, Python, C#, Rust, Java, SQL and more, and I have hands-on experience with game engines such as Godot, Unreal, Unity, and Bevy.
+Hi, I'm Cuppixx, a passionate hobbyist game developer and IT/software student with a focus on computer graphics, game design, development, and software engineering. 
+
+My expertise spans across multiple languages, including  GDScript, Rust, C#, C++, C, Java, Python, SQL, HTML, JavaScript, and more. I have hands-on experience with game engines such as Godot, Unreal, Unity, and Bevy.
 I also have foundational knowledge in the fields of networking, internet applications, distributed systems, and IT security.
 
-I love turning ideas into interactive, polished experiences and thrive in environments that challenge my creativity and problem-solving skills.
+I love turning ideas into interactive, polished experiences and enjoy working in environments that challenge my creativity and problem-solving skills.
 
 <a name="projects"></a>
 # Projects
@@ -32,14 +39,15 @@ The projects are not listed in any particular order.
 
 <a name="koala_time"></a>
 ## Project: KoalaTime_Take-A-Break
-**Date:** _March 14th 2024 - May 19th 2024_
-
 **Project Type:** _Personal, Professional_
 
-**Project Category:** _Asset_
+**Project Category:** _Engine Asset_
 
-**Technologies Used:**  
-`Godot Engine`, `GDScript`
+**Role:** _Solo developer_
+
+**Date:** _March 14th 2024 - May 19th 2024_
+
+**Technologies Used:**  `Godot Engine`, `GDScript`
 
 ##### Overview
 
@@ -65,6 +73,7 @@ The project itself wasn't what I would consider difficult; there were no challen
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/KoalaTime_Take-A-Break)
+- [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
   
 ---
 ---
@@ -74,14 +83,15 @@ The project itself wasn't what I would consider difficult; there were no challen
 
 <a name="ridiculous_coding"></a>
 ## Project: RidiculousCodingCuppixxVersion
-**Date:** _February 26th 2024 - October 2024_
-
 **Project Type:** _Personal, Professional_
 
-**Project Category:** _Asset_
+**Project Category:** _Engine Asset_
 
-**Technologies Used:**  
-`Godot Engine`, `GDScript`
+**Role:** _Solo developer_
+
+**Date:** _February 26th 2024 - October 2024_
+
+**Technologies Used:**  `Godot Engine`, `GDScript`
 
 ##### Overview
 
@@ -89,7 +99,7 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
 
 ##### Key Contributions
 
-- _Solo development on my fork._ 
+- _Solo development on my fork._
 - _Fixing existing problems like the state of buttons not getting loaded on startup._
 - _Developed and added an extensive settings menu._
 - _Added new and requested features._
@@ -110,6 +120,7 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/RidiculousCodingCuppixxVersion)
+- [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
   
 ---
 ---
@@ -119,14 +130,15 @@ _A brief description of the project (2-3 sentences), highlighting the purpose, g
 
 <a name="panda_time"></a>
 ## Project: PandaTime_Take-A-Break
-**Date:** _March 14th 2024 - August 4th 2024_
-
 **Project Type:** _Personal, Professional_
 
-**Project Category:** _Asset_
+**Project Category:** _Engine Asset_
 
-**Technologies Used:**  
-`Godot Engine`, `GDScript`
+**Role:** _Solo developer_
+
+**Date:** _March 14th 2024 - August 4th 2024_
+
+**Technologies Used:**  `Godot Engine`, `GDScript`
 
 ##### Overview
 
@@ -141,7 +153,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 ##### Challenges & Solutions
 
 - _Communication between various isolated, separate window instances._
-  - _This was solved by setting up a signal connection during instantiation, before adding the instance to the scene tree. I also connected to the window's internal signals from the outside to obtain information about the window state, using those informations to exchange data before a node is freed from the scene tree._
+  - _Solved by setting up a signal connection during instantiation, before adding the instance to the scene tree. I also connected to the window's internal signals from the outside to obtain information about the window state, using those informations to exchange data before a node is freed from the scene tree._
 
 ##### Results & Impact
 
@@ -154,6 +166,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/PandaTime_Take-A-Break)
+- [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
   
 ---
 ---
@@ -165,14 +178,15 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 # Appendix
 
 ## Portfolio Project Template
-**Date:** _Start Date - End Date_
-
 **Project Type:** _Personal, Academic, Professional, etc._
 
 **Project Category:** _Asset, Game, Software, Template, etc._
 
-**Technologies Used:**  
-`Language/Framework/Tool 1`, `Language/Framework/Tool 2`, `Language/Framework/Tool 3`
+**Role:** _Solo developer, Team lead, Game designer, Programmer, etc._
+
+**Date:** _Start Date - End Date_
+
+**Technologies Used:**  `Language/Framework/Tool 1`, `Language/Framework/Tool 2`, `Language/Framework/Tool 3`
 
 ##### Overview
 

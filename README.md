@@ -117,9 +117,9 @@ This project was also my very first Godot asset. but thanks to the documentation
 ##### Challenges & Solutions
 
 - _Since I used an existing asset for my first Godot asset, I had to work through a lot of the pre-written code and logic to understand the structure of the original project. This was necessary to effectively implement my own logic into the code flow._
-   - _Thanks to the clean code of the original asset, I was able to follow the entire workflow from the code's entry point, which allowed me to understand the project's code as a whole._ 
+   - _Thanks to the clean code of the original asset, I was able to follow the entire workflow from the code's entry point, which allowed me to understand the project's code as a whole. Still, working on such a "large" project was definitely challenging at the time._ 
 - _Midway through development, a problem arose with the settings window, where a few users reported that it was being cut off. This issue seemed unique to certain users, but there was no clear, overlapping context that could have caused it for those specific individuals._
-   - _After some research by me and a Twitch streamer, we were able to confirm that the issue was caused by the Godot engine itself. As a result, the issue wasn't pursued further._ 
+   - _After some research by me and a Twitch streamer, we were able to confirm that the issue was caused by the Godot engine itself. As a result, the issue wasn't pursued further._
 
 ##### Results & Impact
 

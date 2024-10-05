@@ -53,6 +53,9 @@ The projects are not listed in any particular order.
 
 _KoalaTime is an asset I originally developed for personal use and later published to the Godot Asset Store. The asset allows users to set up a work/break timer that reminds them to take a break after a specified period. My goal was to improve my workflow by incorporating small breaks to recharge during work sessions. The project was purposefully kept minimalistic to maintain simplicity and a visually clean design. The asset includes sounds, images, and a few customization options, such as displaying your own images during break time._
 
+![KoalaTime](images/KoalaTime/readme-example2.png)
+![KoalaTime](images/KoalaTime/preview-example.png)
+
 ##### Key Contributions
 
 - _Solo development._
@@ -96,6 +99,9 @@ The project itself wasn't what I would consider difficult; there were no challen
 ##### Overview
 
 _Ridiculous Coding is an asset I forked to expand upon. It adds flashy and ridiculous visual effects, as well as an XP system, to the Godot engine. The asset is designed to make the coding process more engaging and fun, offering numerous customization options to allow users to adjust the level of ridiculousness to suit their preferences._
+
+![RidiculousCoding](images/RidiculousCoding/readme-example2.png)
+![RidiculousCoding](images/RidiculousCoding/readme-example.png)
 
 ##### Key Contributions
 
@@ -151,6 +157,11 @@ This project was also my very first Godot asset. but thanks to the documentation
 _PandaTime is an asset I originally developed for personal use and later published to the Godot Asset Store. The asset allows users to set up a work/break timer that reminds them to take a break after a specified period. My goal was to improve my workflow by incorporating small breaks to recharge during work sessions. The project was designed with a visually clean design in mind and features a dedicated settings window. The asset includes sounds, images, and a lot of customization options._
 
 _The asset is a more feature and settings heavy version of the above KoalaTime._
+
+![PandaTime](images/PandaTime/readme-example2.png)
+![PandaTime](images/PandaTime/readme-example3.png)
+![PandaTime](images/PandaTime/readme-example4.png)
+
 
 ##### Key Contributions
 

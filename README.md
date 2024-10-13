@@ -17,6 +17,7 @@ __My personal blog and portfolio__. Last Updated on: October 04th 2024.
 1. [KoalaTime_Take-A-Break](#koala_time)
 2. [RidiculousCodingCuppixxVersion](#ridiculous_coding)
 3. [PandaTime_Take-A-Break](#panda_time)
+4. [WinBgSwitcher](#win_bg_switcher)
    
 ---
 
@@ -184,6 +185,52 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 - [Project Repository](https://github.com/Cuppixx/PandaTime_Take-A-Break)
 - [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="win_bg_switcher"></a>
+## Project: WinBgSwitcher
+**Project Type:** _Personal, Professional_
+
+**Project Category:** _Software_
+
+**Role:** _Solo developer_
+
+**Date:** _October 9th 2024 - October 13th 2024_
+
+**Technologies Used:**  `Python`
+
+##### Overview
+
+_The WindowsBackgroundSwitcher is a small program I designed in a few hours time to run in the background of my PC. It allows for users to switch the desktop background image with the press of a keybind. It uses two folders to swap between images and can run on startup for ease of use.
+The executable works with a config.ini file, which allows you to set the two folders and customize the keybinds to your liking._
+
+_I designed the application to quickly swap my desktop images for ones I don’t mind sharing during screen shares on Discord, Zoom, or some other tools for my studies._
+
+![WinBgSwitcher](images/WinBgSwitcher/readme-example.png)
+
+
+##### Key Contributions
+
+- _Solo development._
+
+##### Challenges & Solutions
+
+- _Communication between the Python application and the Windows operating system._
+  - _Since this was my first time writing an application focused on communication with the operating system, I chose Python for this project because its packages facilitate smooth interaction with the OS._
+
+##### Results & Impact
+
+- **_Add in once the project has been out long enough!_**
+
+##### Links
+
+- [Project Repository](https://github.com/Cuppixx/WinBgSwitcher)
+- [Itch.io](https://cuppixx.itch.io/win-bg-switcher)
   
 ---
 ---

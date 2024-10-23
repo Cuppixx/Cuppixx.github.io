@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: October 13th 2024.
+__My personal blog and portfolio__. Last Updated on: October 23rd 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -179,7 +179,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 - _Throughout its development the project has had over 150 unique visitors, according to GitHub's traffic tool._
 - _After the last commit, the project had an averaged 0 to 1 unique visitors every two weeks, again based on data from GitHub's traffic tool._
 - _Feedback from 2 Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional. The overall concept was well received._
-- _Users were pleased with the extensive customization options available and had no further requests for feature implementation._
+- _Users were pleased with the extensive customization options available and had no further requests for feature implementations._
 
 ##### Links
 

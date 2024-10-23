@@ -15,7 +15,7 @@ __My personal blog and portfolio__. Last Updated on: October 13th 2024.
 
 ## Table of projects
 1. [KoalaTime_Take-A-Break](#koala_time)
-2. [RidiculousCodingCuppixxVersion](#ridiculous_coding)
+2. [**RidiculousCodingCuppixxVersion**](#ridiculous_coding)
 3. [PandaTime_Take-A-Break](#panda_time)
 4. [WinBgSwitcher](#win_bg_switcher)
    
@@ -93,7 +93,7 @@ The project itself wasn't what I would consider difficult; there were no challen
 
 **Role:** _Solo developer_
 
-**Date:** _February 26th 2024 - October 2024_
+**Date:** _February 26th 2024 - October 5th 2024_
 
 **Technologies Used:**  `Godot Engine`, `GDScript`
 

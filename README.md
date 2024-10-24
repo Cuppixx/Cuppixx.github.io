@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: October 23rd 2024.
+__My personal blog and portfolio__. Last Updated on: October 24th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -18,6 +18,7 @@ __My personal blog and portfolio__. Last Updated on: October 23rd 2024.
 2. [**RidiculousCodingCuppixxVersion**](#ridiculous_coding)
 3. [PandaTime_Take-A-Break](#panda_time)
 4. [WinBgSwitcher](#win_bg_switcher)
+5. [**Traveling Salesman Problem**](#tsp_class_project)
    
 ---
 
@@ -202,7 +203,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 **Date:** _October 9th 2024 - October 13th 2024_
 
-**Technologies Used:**  `Python`
+**Technologies Used:**  `VSCode`, `Python`
 
 ##### Overview
 
@@ -231,6 +232,51 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 - [Project Repository](https://github.com/Cuppixx/WinBgSwitcher)
 - [Itch.io](https://cuppixx.itch.io/win-bg-switcher)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="tsp_class_project"></a>
+## Project: Traveling Salesman Problem
+**Project Type:** _Academic_
+
+**Project Category:** _Paper, Software_
+
+**Role:** _Solo developer_
+
+**Date:**
+- TravelingSalesmanProblem_AcademicPaper: _April 19th 2024 - June 28th 2024_
+- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 2024_
+- TravelingSalesmanProblem_ClassProject_PythonImplementation: _May 5th 2024 - June 30th 2024_ 
+
+**Technologies Used:**  `Godot Engine`, `GDScript`, `VSCode`, `Python`, `TeX Live`
+
+##### Overview
+
+_The TSP Project is a combination of three individual projects I worked on for two different classes during my 4th semester. The academic paper and class project were part of my Algorithms and Data Structures class, whereas the Python implementation of the class project was created for my Practical Optimizations class._
+
+_The class project was written in GDScript and aimed to visually compare the different results produced by various algorithms and heuristics for solving the TSP. The Python implementation, on the other hand, focused more on optimizing the algorithms and measuring and evaluating the data sets collected from these approaches._
+
+##### Key Contributions
+
+- _Solo development._
+
+##### Challenges & Solutions
+
+- _Writing the algorithms from scratch in Godot._
+
+##### Results & Impact
+
+- _The evolutionary algorithm I implemented for my Practical Optimizations class achieved the second-best time in our class and was one of only two solutions that successfully found the shortest route for the berlin52.tsp problem._
+
+##### Links
+
+- [Project Repository TravelingSalesmanProblem_AcademicPape](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper)
+- [Project Repository TravelingSalesmanProblem_ClassProject](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject)
+- [Project Repository TravelingSalesmanProblem_ClassProject_PythonImplementation](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject_PythonImplementation)
   
 ---
 ---

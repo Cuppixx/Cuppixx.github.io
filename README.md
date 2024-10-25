@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: October 24th 2024.
+__My personal blog and portfolio__. Last Updated on: October 25th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -118,10 +118,9 @@ This project was also my very first Godot asset. but thanks to the documentation
 
 ##### Challenges & Solutions
 
-- _Since I used an existing asset for my first Godot asset, I had to work through a lot of the pre-written code and logic to understand the structure of the original project. This was necessary to effectively implement my own logic into the code flow._
-   - _Thanks to the clean code of the original asset, I was able to follow the entire workflow from the code's entry point, which allowed me to understand the project's code as a whole. Still, working on such a "large" project was definitely challenging at the time._ 
-- _Midway through development, a problem arose with the settings window, where a few users reported that it was being cut off. This issue seemed unique to certain users, but there was no clear, overlapping context that could have caused it for those specific individuals._
-   - _After some research by me and a Twitch streamer, we were able to confirm that the issue was caused by the Godot engine itself. As a result, the issue wasn't pursued further._
+- _Working on an existing asset, I had to work through a lot of the pre-written code and logic to understand the structure of the original project._
+- _During development, an issue was reported where the settings window was being cut off._
+   - _After some research, we could confirm that the issue was caused by the engine itself. As a result, the issue wasn't pursued further._
 
 ##### Results & Impact
 
@@ -249,7 +248,7 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 **Date:**
 - TravelingSalesmanProblem_AcademicPaper: _April 19th 2024 - June 28th 2024_
-- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 2024_
+- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 25th 2024_
 - TravelingSalesmanProblem_ClassProject_PythonImplementation: _May 5th 2024 - June 30th 2024_ 
 
 **Technologies Used:**  `Godot Engine`, `GDScript`, `VSCode`, `Python`, `TeX Live`
@@ -274,7 +273,7 @@ _The class project was written in GDScript and aimed to visually compare the dif
 
 ##### Links
 
-- [Project Repository TravelingSalesmanProblem_AcademicPape](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper)
+- [Project Repository TravelingSalesmanProblem_AcademicPaper](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper)
 - [Project Repository TravelingSalesmanProblem_ClassProject](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject)
 - [Project Repository TravelingSalesmanProblem_ClassProject_PythonImplementation](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject_PythonImplementation)
   

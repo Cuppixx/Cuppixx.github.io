@@ -252,7 +252,7 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 **Date:**
 - TravelingSalesmanProblem_AcademicPaper: _April 19th 2024 - June 28th 2024_
-- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - ???_
+- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 28th 2024_
 - TravelingSalesmanProblem_ClassProject_PythonImplementation: _May 5th 2024 - June 30th 2024_ 
 
 **Technologies Used:**  `Godot Engine`, `GDScript`, `VSCode`, `Python`, `TeX Live`

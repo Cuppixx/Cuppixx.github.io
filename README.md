@@ -283,7 +283,8 @@ Maybe _it is_ the code quality that does bother me in the end, but I just can’
 
 ##### Links
 
-- [Project Repository TravelingSalesmanProblem_AcademicPaper](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper)
+- [Private Project Repository TravelingSalesmanProblem_AcademicPaper](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper) and [Public Paper](https://cuppixx.github.io/TSP.github.io/)
+  
 - [Project Repository TravelingSalesmanProblem_ClassProject](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject)
 - [Project Repository TravelingSalesmanProblem_ClassProject_PythonImplementation](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject_PythonImplementation)
   

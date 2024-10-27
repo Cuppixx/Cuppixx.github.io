@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: October 25th 2024.
+__My personal blog and portfolio__. Last Updated on: October 27th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -35,6 +35,10 @@ I love turning ideas into interactive, polished experiences and enjoy working in
 # Projects
 Below is a list of projects I have worked on, either independently or as part of a team. These projects include assets, games, software, and templates.
 The projects are not listed in any particular order.
+
+**A note on project dates:** 
+
+The project dates are intended to show how long I worked on the core of a project, supported it, or continued to push new updates and features. This means the project dates don’t always reflect actual development time. Therefore, if you’re interested in seeing exactly how much work I put into each project, please refer to the commit history.
  
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
@@ -248,7 +252,7 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 **Date:**
 - TravelingSalesmanProblem_AcademicPaper: _April 19th 2024 - June 28th 2024_
-- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 25th 2024_
+- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - ???_
 - TravelingSalesmanProblem_ClassProject_PythonImplementation: _May 5th 2024 - June 30th 2024_ 
 
 **Technologies Used:**  `Godot Engine`, `GDScript`, `VSCode`, `Python`, `TeX Live`
@@ -265,11 +269,17 @@ _The class project was written in GDScript and aimed to visually compare the dif
 
 ##### Challenges & Solutions
 
-- _Writing the algorithms from scratch in Godot._
+- _Implementing the algorithms from scratch in Godot._
+- _Understanding heursistics._
+
+By far, the biggest challenge for me with this project was that the algorithms aren’t "perfect". My coding knowledge was, and still is, limited. I’m still learning yet already want to achieve a "perfect" result. For me, perfection doesn’t mean the best performance or code quality; it means looking at the code and feeling a sense of completion. I’m not sure how else to put it, but I certainly wasted one too many hours staring at my code, feeling like something was off, even though the performance was good, it produced decent results, and my professor praised it. 
+
+Maybe _it is_ the code quality that does bother me in the end, but I just can’t pinpoint it. So, wrapping up three projects that I don’t feel are truly finished left me feeling bad and frustrated.
 
 ##### Results & Impact
 
 - _The evolutionary algorithm I implemented for my Practical Optimizations class achieved the second-best time in our class and was one of only two solutions that successfully found the shortest route for the berlin52.tsp problem._
+- _I scored extremely well in both classes, achieving the highest score in one of them._
 
 ##### Links
 

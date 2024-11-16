@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: October 27th 2024.
+__My personal blog and portfolio__. Last Updated on: November 16th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -11,15 +11,19 @@ __My personal blog and portfolio__. Last Updated on: October 27th 2024.
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Projects](#projects)
-3. [Appendix](#appendix)
+3. [Gists](#gists)
+4. [Appendix](#appendix)
 
 ## Table of projects
 1. [KoalaTime_Take-A-Break](#koala_time)
 2. [**RidiculousCodingCuppixxVersion**](#ridiculous_coding)
 3. [PandaTime_Take-A-Break](#panda_time)
 4. [WinBgSwitcher](#win_bg_switcher)
-5. [**Traveling Salesman Problem**](#tsp_class_project)
-   
+6. [**Traveling Salesman Problem**](#tsp_class_project)
+
+## Table of gists
+1. [sequential_renamer](#sequential_renamer)
+
 ---
 
 <a name="introduction"></a>
@@ -287,6 +291,73 @@ Maybe _it is_ the code quality that does bother me in the end, but I just can’
   
 - [Project Repository TravelingSalesmanProblem_ClassProject](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject)
 - [Project Repository TravelingSalesmanProblem_ClassProject_PythonImplementation](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject_PythonImplementation)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="gists"></a>
+# Gists
+
+Unlike the full-fledged projects from before, the Gists section features quick code snippets and (mainly) small utilities in form of 
+
+- scripts (.bat, .sh, .py, .rb),
+- config files (.json, .yaml, .xml),
+- web development files (.html, .css, .js),
+- or anything else that might fit into a single file.
+
+All available through my [GitHub Gists](https://gist.github.com/Cuppixx).
+
+Being contained in a single file doesn’t mean, however, that these small, single-file applications and snippets are any less interesting or caused me any less frustration while creating them.
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="sequential_renamer"></a>
+## Project: sequential_renamer.bat
+**Project Type:** _Personal_
+
+**Project Category:** _Software_
+
+**Role:** _Solo developer_
+
+**Date:** _November 16th 2024_
+
+**Technologies Used:**  `VSCode`, `Batch`
+
+##### Overview
+
+_The sequential_renamer is a single batch (.bat) file that, when executed from the command line, takes a folder path and a base name as arguments and recursively renames image files (png, jpg, jpeg) in the specified folder and its subfolders to a sequential naming convention,
+using a provided base name and a 3-digit numbering system (e.g. base_name_000.png, base_name_001.jpg, etc.)._
+
+##### Key Contributions
+
+- _Solo development._
+
+##### Challenges & Solutions
+
+- _First time working with and writing a batch file._
+
+Not a challenge, but rather a **lesson** I learned while writing this file: It’s crucial to ensure your script is type-safe and includes safeguards, especially when working with files in the Windows filesystem.
+
+What happend was that, while testing the batch file, I was copying and pasting a file path into the command prompt, which is so far so good. 
+Now somehow (and I still don’t know how), I managed to unleash the batch file on my entire D: drive. At that point, I hadn’t implemented a file type check for PNG, JPG, or JPEG files nor did I had any promts in place wether I truly want to process a given folder.
+
+In a panic, I watched as the output flooded with reports of successfully renamed Godot files from my godot_demo folder. Thankfully, I was able to terminate the script quickly enough before it could reach my study files, personal projects, or wreak havoc on my Steam folder.
+I shudder to think of the damage that could’ve occurred if I had accidentally targeted the C: instead of D: drive.
+
+This experience taught me that simply being careful isn’t enough to prevent unwanted damage when working with files and I can safely say: lesson learned. 
+Having measures in place to verify inputs and restrict operations early on is critical, especially when dealing with sensitive files in your Windows filesystem.
+
+##### Results & Impact
+
+- **_No results or impact yet!_**
+
+##### Links
+
+- [Project Repository](https://gist.github.com/Cuppixx/5c4b4bca0cdd31ba457480c27727e7db)
   
 ---
 ---

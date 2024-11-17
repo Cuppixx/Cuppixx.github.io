@@ -23,7 +23,7 @@ __My personal blog and portfolio__. Last Updated on: November 17th 2024.
 6. [**Traveling Salesman Problem**](#tsp_class_project)
 
 ## Table of gists
-1. [sequential_renamer](#sequential_renamer)
+1. [sequential_renamer.bat](#sequential_renamer)
 
 ---
 
@@ -271,6 +271,9 @@ _The TSP Project is a combination of three individual projects I worked on for t
 
 _The class project was written in GDScript and aimed to visually compare the different results produced by various algorithms and heuristics for solving the TSP. The Python implementation, on the other hand, focused more on optimizing the algorithms and measuring and evaluating the data sets collected from these approaches._
 
+##### _TravelingSalesmanProblem_ClassProject:_
+![TspGodot](images/Tsp/tsp_godot.png)
+
 ##### Key Contributions
 
 - _Solo development._
@@ -320,47 +323,40 @@ Being contained in a single file doesn’t mean, however, that these small, sing
 
 <a name="sequential_renamer"></a>
 ## Gist: sequential_renamer.bat
-**Project Type:** _Personal_
-
-**Project Category:** _Software_
-
-**Role:** _Solo developer_
+**Category:** _Windows Command Line Tool_
 
 **Date:** _November 16th 2024_
 
-**Technologies Used:**  `VSCode`, `Batch`
+**Technologies Used:**  `VSCode`, `Batch`, `Windows File System API`
 
 ##### Overview
 
 _The sequential_renamer is a single batch (.bat) file that, when executed from the command line, takes a folder path and a base name as arguments and recursively renames image files (png, jpg, jpeg) in the specified folder and its subfolders to a sequential naming convention,
 using a provided base name and a 3-digit numbering system (e.g. base_name_000.png, base_name_001.jpg, etc.)._
 
-##### Key Contributions
-
-- _Solo development._
-
 ##### Challenges & Solutions
 
 - _First time working with and writing a batch file._
+<br>
 
-Not a challenge, but rather a **lesson** I learned while writing this file: It’s crucial to ensure your script is type-safe and includes safeguards, especially when working with files in the Windows filesystem.
+Not a challenge, but rather a **lesson** I learned while testing this file: 
 
-What happend was that, while testing the batch file, I was copying and pasting a file path into the command prompt, which is so far so good. 
+**It’s crucial to ensure your script is type-safe and includes safeguards, especially when working with files in the Windows filesystem.**
+
+What happend was that, while testing the batch file, I was copy- and pasting a file path into the command prompt, which was "so far so good". 
 Now somehow (and I still don’t know how), I managed to unleash the batch file on my entire D: drive. At that point, I hadn’t implemented a file type check for PNG, JPG, or JPEG files nor did I had any promts in place wether I truly want to process a given folder.
 
-In a panic, I watched as the output flooded with reports of successfully renamed Godot files from my godot_demo folder. Thankfully, I was able to terminate the script quickly enough before it could reach my study files, personal projects, or wreak havoc on my Steam folder.
-I shudder to think of the damage that could’ve occurred if I had accidentally targeted the C: instead of D: drive.
+In a panic, I watched as the output flooded with reports of successfully renamed Godot files from my godot_demo folder. Thankfully, I was able to terminate the script before it could reach any of my study files, personal projects, or wreak havoc on my other folders.
+I shudder to think of the damage that could’ve occurred if I had accidentally targeted the C: instead of the D: drive.
 
-This experience taught me that simply being careful isn’t enough to prevent unwanted damage when working with files and I can safely say: lesson learned. 
+**Lesson learned:**
+
+This experience definitely taught me that simply being careful isn’t enough to prevent unwanted damage when working with something so crucial as the operating system. 
 Having measures in place to verify inputs and restrict operations early on is critical, especially when dealing with sensitive files in your Windows filesystem.
-
-##### Results & Impact
-
-- **_No results or impact yet!_**
 
 ##### Links
 
-- [Project Repository](https://gist.github.com/Cuppixx/5c4b4bca0cdd31ba457480c27727e7db)
+- [Gist Page](https://gist.github.com/Cuppixx/5c4b4bca0cdd31ba457480c27727e7db)
   
 ---
 ---
@@ -381,7 +377,7 @@ _... and a bit of this and that._
 <a name="appendix"></a>
 # Appendix
 
-## Portfolio Project Template
+## Portfolio Item Template
 **Project Type:** _Personal, Academic, Professional, etc._
 
 **Project Category:** _Asset, Game, Software, Template, etc._

@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: November 16th 2024.
+__My personal blog and portfolio__. Last Updated on: November 17th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -10,9 +10,10 @@ __My personal blog and portfolio__. Last Updated on: November 16th 2024.
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Projects](#projects)
-3. [Gists](#gists)
-4. [Appendix](#appendix)
+2. [**Projects**](#projects)
+3. [**Gists**](#gists)
+4. [About Me](#about_me)
+5. [Appendix](#appendix)
 
 ## Table of projects
 1. [KoalaTime_Take-A-Break](#koala_time)
@@ -33,7 +34,9 @@ Hi, I'm Cuppixx, a passionate hobbyist game developer and IT/software student wi
 My expertise spans across multiple languages, including  GDScript, Rust, C#, C++, C, Java, Python, SQL, HTML, JavaScript, and more. I have hands-on experience with game engines such as Godot, Unreal, Unity, and Bevy.
 I also have foundational knowledge in the fields of networking, internet applications, distributed systems, and IT security.
 
-I love turning ideas into interactive, polished experiences and enjoy working in environments that challenge my creativity and problem-solving skills.
+I love turning ideas into interactive, polished experiences and enjoy working on projects that challenge my creativity and problem-solving skills.
+
+[**... continue reading.**](#about_me)
 
 <a name="projects"></a>
 # Projects
@@ -42,7 +45,7 @@ The projects are not listed in any particular order.
 
 **A note on project dates:** 
 
-The project dates are intended to show how long I worked on the core of a project, supported it, or continued to push new updates and features. This means the project dates don’t always reflect actual development time. Therefore, if you’re interested in seeing exactly how much work I put into each project, please refer to the commit history.
+Project dates are intended to show how long I worked on the core of an individual project, supported it, or continued to push new updates and features. This means that project dates don’t always reflect the actual commit history. Therefore, if you're interested in seeing exactly how much work I put into each project, please refer to their individual commit history.
  
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
@@ -133,11 +136,12 @@ This project was also my very first Godot asset. but thanks to the documentation
 ##### Results & Impact
 
 - _As of October 2024, the project has 13 stars, making it the most popular fork of the original asset._
-- _Throughout its development the project has had over 2000 unique visitors, according to GitHub's traffic tool._
-- _After the last commit, the project had an averaged of 5 unique visitors every two weeks, again based on data from GitHub's traffic tool._
-- _Feedback from Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional._
-- _Users were pleased with the extensive customization options available and, after some dialogue, recommended features they would love to see in the asset. Many of these features were later implemented, and the additions were well received and appreciated._
-
+- _Throughout its development the project has had over **2000 unique visitors**, according to GitHub's traffic tool._
+- _After the last commit, the project had an averaged of 10 unique visitors every two weeks, again based on data from GitHub's traffic tool._
+- _Feedback from various Twitch users in the Software and Game Development category has been positive._
+  - _Users noted that the plugin looks visually clean and professional._
+  - _Users were pleased with the extensive customization options available and, after some dialogue, recommended features they would love to see in the asset. Many of these features were later implemented, and the additions were well received and appreciated._
+  
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/RidiculousCodingCuppixxVersion)
@@ -170,7 +174,6 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 ![PandaTime](images/PandaTime/readme-example2.png)
 ![PandaTime](images/PandaTime/readme-example3.png)
 ![PandaTime](images/PandaTime/readme-example4.png)
-
 
 ##### Key Contributions
 
@@ -210,7 +213,7 @@ _The asset is a more feature and settings heavy version of the above KoalaTime._
 
 **Date:** _October 9th 2024 - October 13th 2024_
 
-**Technologies Used:**  `VSCode`, `Python`
+**Technologies Used:**  `VSCode`, `Python`, `PyInstaller`
 
 ##### Overview
 
@@ -221,7 +224,6 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 ![WinBgSwitcher](images/WinBgSwitcher/readme-example.png)
 
-
 ##### Key Contributions
 
 - _Solo development._
@@ -230,10 +232,12 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 
 - _Communication between the Python application and the Windows operating system._
   - _Since this was my first time writing an application focused on communication with the operating system, I chose Python for this project because its packages facilitate smooth interaction with the OS._
-
+- _The executable, built using PyInstaller, frequently gets flagged as malware or a trojan by Windows Defender._
+  
 ##### Results & Impact
 
-- **_Add in once the project has been out long enough!_**
+- _After the last commit, the project had an averaged 0 to 1 unique visitors every two weeks, based on data from GitHub's traffic tool._
+- _Because the executable raises false positives the project required additional effort to document the software's legitimacy, communicate its safety to users, and explore ways to minimize false positives during the compilation and distribution process._
 
 ##### Links
 
@@ -361,6 +365,16 @@ Having measures in place to verify inputs and restrict operations early on is cr
   
 ---
 ---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="about_me"></a>
+# About Me
+
+_... and a bit of this and that._
+
+## 
 
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)

@@ -259,11 +259,11 @@ _I designed the application to quickly swap my desktop images for ones I don’t
 **Role:** _Solo developer_
 
 **Date:**
-- TravelingSalesmanProblem_AcademicPaper: _April 19th 2024 - June 28th 2024_
-- TravelingSalesmanProblem_ClassProject: _April 10th 2024 - October 28th 2024_
-- TravelingSalesmanProblem_ClassProject_PythonImplementation: _May 5th 2024 - June 30th 2024_ 
+- TravelingSalesmanProblem_AcademicPaper:&ensp;_April 19th 2024 - June 28th 2024_
+- TravelingSalesmanProblem_ClassProject:&ensp;_April 10th 2024 - October 28th 2024_
+- TravelingSalesmanProblem_ClassProject_PythonImplementation:&ensp;_May 5th 2024 - June 30th 2024_
 
-**Technologies Used:**  `Godot Engine`, `GDScript`, `VSCode`, `Python`, `TeX Live`
+**Technologies Used:**  `VSCode`, `TeX Live`, `Godot Engine`, `GDScript`, `Python`, `Matplotlib`, `Scipy`
 
 ##### Overview
 
@@ -292,7 +292,6 @@ Maybe _it is_ the code quality that does bother me in the end, but I just can’
 ##### Links
 
 - [Private Project Repository TravelingSalesmanProblem_AcademicPaper](https://github.com/Cuppixx/TravelingSalesmanProblem_AcademicPaper) and [Public Paper](https://cuppixx.github.io/TSP.github.io/)
-  
 - [Project Repository TravelingSalesmanProblem_ClassProject](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject)
 - [Project Repository TravelingSalesmanProblem_ClassProject_PythonImplementation](https://github.com/Cuppixx/TravelingSalesmanProblem_ClassProject_PythonImplementation)
   
@@ -320,7 +319,7 @@ Being contained in a single file doesn’t mean, however, that these small, sing
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 
 <a name="sequential_renamer"></a>
-## Project: sequential_renamer.bat
+## Gist: sequential_renamer.bat
 **Project Type:** _Personal_
 
 **Project Category:** _Software_

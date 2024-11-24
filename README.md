@@ -1,5 +1,5 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: November 17th 2024.
+__My personal blog and portfolio__. Last Updated on: November 24th 2024.
 
 - __Name:__ David (Alias: Cuppixx)
 - __Bio:__ Hobbyist game developer and IT/software student
@@ -24,6 +24,7 @@ __My personal blog and portfolio__. Last Updated on: November 17th 2024.
 
 ## Table of gists
 1. [sequential_renamer.bat](#sequential_renamer)
+2. [file_sorter.bat](#file_sorter)
 
 ---
 
@@ -358,6 +359,32 @@ Having measures in place to verify inputs and restrict operations early on is cr
 
 - [Gist Page](https://gist.github.com/Cuppixx/5c4b4bca0cdd31ba457480c27727e7db)
   
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
+<a name="file_sorter"></a>
+## Gist: file_sorter.bat
+**Category:** _Windows Command Line Tool_
+
+**Date:** _November 24th 2024_
+
+**Technologies Used:**  `VSCode`, `Batch`, `Windows File System API`
+
+##### Overview
+
+_A batch script to sort files in a specified folder into subfolders based on their extensions and optionally clean up empty folders._
+
+##### Challenges & Solutions
+
+- _None._
+
+##### Links
+
+- [Gist Page](https://gist.github.com/Cuppixx/b7b2fe74869324933d3419952afdd570)
+
 ---
 ---
 

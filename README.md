@@ -21,6 +21,7 @@ __My personal blog and portfolio__. Last Updated on: November 24th 2024.
 3. [PandaTime_Take-A-Break](#panda_time)
 4. [WinBgSwitcher](#win_bg_switcher)
 6. [**Traveling Salesman Problem**](#tsp_class_project)
+7. [RayTracingInOneWeekend](#raytracing_weekend)
 
 ## Table of gists
 1. [sequential_renamer.bat](#sequential_renamer)
@@ -305,6 +306,54 @@ Maybe _it is_ the code quality that does bother me in the end, but I just can’
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 
+<a name="raytracing_weekend"></a>
+## Project: RayTracingInOneWeekend
+**Project Type:** _Personal, Self-Educational_
+
+**Project Category:** _Computer Graphics_
+
+**Role:** _Solo developer_
+
+**Date:** _November 30th 2024 - December 1st 2024_
+
+**Technologies Used:**  `VSCode`, `C`, `CXX`, `Cmake`
+
+##### Overview
+
+This project followed the book (tutorial) ["Ray Tracing In One Weekend"](https://raytracing.github.io/books/RayTracingInOneWeekend.html#overview) by Peter Shirley, Trevor David Black, Steve Hollasch. It served as a dedicated learning experience to deepen my knowledge and understanding of fundamental ray tracing concepts by implementing a basic ray tracer._
+
+![RTXWeekend](images/Tsp/tsp_godot.png)
+
+##### Key Contributions
+
+- _None, just followed the tutorial._
+
+##### Challenges & Solutions
+
+- _One of the biggest challenges I faced was the mathematical aspect of the ray tracer. Math has never been my strongest subject, and I doubt it ever will be. Ensuring I fully understood the underlying concepts for vector and dimensional calculations was particularly difficult. While I grasped the material during my read of the book, I’m not confident I could explain it in detail days later._
+
+##### Results & Impact
+
+- _As a self-educational project, the primary outcomes and impact were focused on personal learning and skill development._
+- _Restating the key aspects I gained from this project, they include:_
+  - _Ray Casting Basics._
+  - _Ray-Sphere Intersection._
+  - _Shading and Lighting._
+  - _Antialiasing._
+  - _Materials and Reflection._
+  - _Recursive Ray Tracing._
+
+##### Links
+
+- [Project Repository](https://github.com/Cuppixx/RayTracingInOneWeekend)
+- [Original Repository](https://github.com/RayTracing/raytracing.github.io)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
 <a name="gists"></a>
 # Gists
 
@@ -407,7 +456,7 @@ _... and a bit of this and that._
 ## Portfolio Item Template
 **Project Type:** _Personal, Academic, Professional, etc._
 
-**Project Category:** _Asset, Game, Software, Template, etc._
+**Project Category:** _Asset, Educational, Game, Software, Template, etc._
 
 **Role:** _Solo developer, Team lead, Game designer, Programmer, etc._
 

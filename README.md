@@ -320,7 +320,7 @@ Maybe _it is_ the code quality that does bother me in the end, but I just can’
 
 ##### Overview
 
-This project followed the book (tutorial) ["Ray Tracing In One Weekend"](https://raytracing.github.io/books/RayTracingInOneWeekend.html#overview) by Peter Shirley, Trevor David Black, Steve Hollasch. It served as a dedicated learning experience to deepen my knowledge and understanding of fundamental ray tracing concepts by implementing a basic ray tracer._
+_This project followed the book (tutorial) ["Ray Tracing In One Weekend"](https://raytracing.github.io/books/RayTracingInOneWeekend.html#overview) by Peter Shirley, Trevor David Black, Steve Hollasch. It served as a dedicated learning experience to deepen my knowledge and understanding of fundamental ray tracing concepts by implementing a basic ray tracer._
 
 ![RTXWeekend](images/RayTracingInOneWeekend/final_render.png)
 

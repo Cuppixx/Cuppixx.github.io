@@ -1,12 +1,17 @@
 # Cuppixx.github.io - Portfolio
-__My personal blog and portfolio__. Last Updated on: November 24th 2024.
+__My personal blog and portfolio__. Last Updated on: December 28th 2024.
+
+**Disclaimer:**  
+  This content might be outdated!  
+  The README content has been moved to and will now be displayed on the index.hmtl.  
+  Refer to [cuppixx.github.io](https://cuppixx.github.io).
 
 - __Name:__ David (Alias: Cuppixx)
-- __Bio:__ Hobbyist game developer and IT/software student
+- __Bio:__
+  - Hobbyist game developer and IT/software student
+  - Working on my bachelor's thesis
 - __Contact Information:__ _cuppixd@gmx.de_
 - __Location:__ Germany
-
----
 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -17,11 +22,11 @@ __My personal blog and portfolio__. Last Updated on: November 24th 2024.
 
 ## Table of projects
 1. [KoalaTime_Take-A-Break](#koala_time)
-2. [**RidiculousCodingCuppixxVersion**](#ridiculous_coding)
-3. [PandaTime_Take-A-Break](#panda_time)
+2. [KoalaTime_Take-A-Break - Advanced](#panda_time)
+3. [**RidiculousCodingCuppixxVersion**](#ridiculous_coding)
 4. [WinBgSwitcher](#win_bg_switcher)
-6. [**Traveling Salesman Problem**](#tsp_class_project)
-7. [RayTracingInOneWeekend](#raytracing_weekend)
+5. [**Traveling Salesman Problem**](#tsp_class_project)
+6. [RayTracingInOneWeekend](#raytracing_weekend)
 
 ## Table of gists
 1. [sequential_renamer.bat](#sequential_renamer)
@@ -99,6 +104,56 @@ The project itself wasn't what I would consider difficult; there were no challen
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 [//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
 
+<a name="panda_time"></a>
+## Project: PandaTime_Take-A-Break
+**Project Type:** _Personal, Professional_
+
+**Project Category:** _Engine Asset_
+
+**Role:** _Solo developer_
+
+**Date:** _March 14th 2024 - August 4th 2024_
+
+**Technologies Used:**  `Godot Engine`, `GDScript`
+
+##### Overview
+
+_PandaTime is an asset I originally developed for personal use and later published to the Godot Asset Store. The asset allows users to set up a work/break timer that reminds them to take a break after a specified period. My goal was to improve my workflow by incorporating small breaks to recharge during work sessions. The project was designed with a visually clean design in mind and features a dedicated settings window. The asset includes sounds, images, and a lot of customization options._
+
+_The asset is a more feature and settings heavy version of the above KoalaTime._
+
+![PandaTime](images/PandaTime/readme-example2.png)
+![PandaTime](images/PandaTime/readme-example3.png)
+![PandaTime](images/PandaTime/readme-example4.png)
+
+##### Key Contributions
+
+- _Solo development._
+
+##### Challenges & Solutions
+
+- _Communication between various isolated, separate window instances._
+  - _Solved by setting up a signal connection during instantiation, before adding the instance to the scene tree. I also connected to the window's internal signals from the outside to obtain information about the window state, using those informations to exchange data before a node is freed from the scene tree._
+
+##### Results & Impact
+
+- _As of October 2024, the project has no stars on GitHub._
+- _Throughout its development the project has had over 150 unique visitors, according to GitHub's traffic tool._
+- _After the last commit, the project had an averaged 0 to 1 unique visitors every two weeks, again based on data from GitHub's traffic tool._
+- _Feedback from 2 Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional. The overall concept was well received._
+- _Users were pleased with the extensive customization options available and had no further requests for feature implementations._
+
+##### Links
+
+- [Project Repository](https://github.com/Cuppixx/PandaTime_Take-A-Break)
+- [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
+  
+---
+---
+
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
+
 <a name="ridiculous_coding"></a>
 ## Project: RidiculousCodingCuppixxVersion
 **Project Type:** _Personal, Professional_
@@ -147,56 +202,6 @@ This project was also my very first Godot asset. but thanks to the documentation
 ##### Links
 
 - [Project Repository](https://github.com/Cuppixx/RidiculousCodingCuppixxVersion)
-- [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
-  
----
----
-
-[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
-[//]: # (////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////)
-
-<a name="panda_time"></a>
-## Project: PandaTime_Take-A-Break
-**Project Type:** _Personal, Professional_
-
-**Project Category:** _Engine Asset_
-
-**Role:** _Solo developer_
-
-**Date:** _March 14th 2024 - August 4th 2024_
-
-**Technologies Used:**  `Godot Engine`, `GDScript`
-
-##### Overview
-
-_PandaTime is an asset I originally developed for personal use and later published to the Godot Asset Store. The asset allows users to set up a work/break timer that reminds them to take a break after a specified period. My goal was to improve my workflow by incorporating small breaks to recharge during work sessions. The project was designed with a visually clean design in mind and features a dedicated settings window. The asset includes sounds, images, and a lot of customization options._
-
-_The asset is a more feature and settings heavy version of the above KoalaTime._
-
-![PandaTime](images/PandaTime/readme-example2.png)
-![PandaTime](images/PandaTime/readme-example3.png)
-![PandaTime](images/PandaTime/readme-example4.png)
-
-##### Key Contributions
-
-- _Solo development._
-
-##### Challenges & Solutions
-
-- _Communication between various isolated, separate window instances._
-  - _Solved by setting up a signal connection during instantiation, before adding the instance to the scene tree. I also connected to the window's internal signals from the outside to obtain information about the window state, using those informations to exchange data before a node is freed from the scene tree._
-
-##### Results & Impact
-
-- _As of October 2024, the project has no stars on GitHub._
-- _Throughout its development the project has had over 150 unique visitors, according to GitHub's traffic tool._
-- _After the last commit, the project had an averaged 0 to 1 unique visitors every two weeks, again based on data from GitHub's traffic tool._
-- _Feedback from 2 Twitch users in the Software and Game Development category has been positive. They noted that the plugin looks visually clean and professional. The overall concept was well received._
-- _Users were pleased with the extensive customization options available and had no further requests for feature implementations._
-
-##### Links
-
-- [Project Repository](https://github.com/Cuppixx/PandaTime_Take-A-Break)
 - [Godot Asset Store](https://godotengine.org/asset-library/asset?user=CuppiXD)
   
 ---

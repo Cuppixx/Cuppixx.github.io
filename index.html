@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Cuppixx</title>
     <style>
+        :root {
+            --bg-color: #fff;
+            --text-color: #000;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #121212;
+            --text-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -79,6 +100,22 @@
             </ul>
         </nav>
     </header>
+    
+    <button id="theme-toggle">Toggle Dark/Light Mode</button>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        // Apply the saved theme on page load
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const newTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme); // Save preference
+        });
+    </script>
 
     <div class="container">
         <section id="introduction">

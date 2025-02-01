@@ -18,28 +18,7 @@
     
     <title>Cuppixx - About Me</title>
     
-    <script>
-        // Function to load the navigation bar dynamically
-        function loadNavigationBar() {
-            fetch("/nav.html")
-                .then(response => {
-                    if (!response.ok || !response.headers.get("content-type")?.includes("text/html")) {
-                        throw new Error("Invalid navigation content");
-                    }
-                    return response.text();
-                })
-                .then(html => {
-                    document.getElementById("navbar").innerHTML = html;
-                })
-                .catch(error => {
-                    console.error("Error loading navigation:", error);
-                    document.getElementById("navbar").innerHTML = "<p>Navigation failed to load.</p>";
-                });
-        }
-
-        // Wait for the DOM to be ready before executing
-        document.addEventListener("DOMContentLoaded", loadNavigationBar);
-    </script>
+    <script src="/js/load_navbar.js"></script>
     
     <link rel="stylesheet" href="/css/stylesheet.css">
 </head>

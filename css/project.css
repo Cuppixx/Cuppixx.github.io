@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+h3 {
+    margin-top: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Container for the whole project */
+.project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Info Section */
+.project-info p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.project-info code {
+    background-color: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Project Overview */
+.project-overview p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.project-images {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-image {
+    width: 80%;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image:first-child {
+    margin-left: 0;
+}
+
+.project-image:last-child {
+    margin-right: 0;
+}
+
+/* Project Contributions, Challenges, Results, Links */
+.project-contributions, .project-challenges, .project-results, .project-links {
+    margin-top: 20px;
+}
+
+.project-contributions ul,
+.project-challenges ul,
+.project-results ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project-links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-links a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .project-container {
+        padding: 15px;
+    }
+
+    .project-info p {
+        font-size: 1em;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: none;
+        margin: 10px 0;
+    }
+}

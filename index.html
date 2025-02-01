@@ -3,66 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Homepage</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        main {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <h1>Cuppixx</h1>
-        <p>IT/Software student <br> Hobbyist game developer</p>
-        <p>📍 Germany</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-        <div class="buttons">
-            <button class="resume">📄 Resume</button>
-            <a href="#"><img src="icon1.png" alt="Link1"></a>
-            <a href="#"><img src="icon2.png" alt="Link2"></a>
-            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
-        </div>
-    </header>
-
-    <section class="tabs">
-        <button class="tab active" onclick="showTab('work')">Work</button>
-        <button class="tab" onclick="showTab('education')">Education</button>
-    </section>
-
-    <section id="work" class="tab-content active">
-        <div class="timeline">
-            <div class="job">
-                <span>Apr 2023 - Jul 2023</span>
-                <h3>In Time Tec</h3>
-                <p>Senior Software Engineer</p>
-            </div>
-            <div class="job">
-                <span>Oct 2021 - Apr 2023</span>
-                <h3>Maximl Labs</h3>
-                <p>Senior Software Developer</p>
-            </div>
-            <!-- Add more jobs here -->
-        </div>
-    </section>
-
-    <section id="education" class="tab-content">
-        <h2>Education Details Coming Soon...</h2>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skill-tags">
-            <span>JavaScript</span> <span>TypeScript</span> <span>Python</span> <span>ReactJS</span> <span>Redux</span> 
-            <span>Terraform</span> <span>MongoDB</span> <span>SQL</span> <span>Tailwind</span>
-        </div>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">🔬 Project 1</div>
-            <div class="project-card">🛠️ Project 2</div>
-            <div class="project-card">📱 Project 3</div>
-        </div>
-    </section>
+    <main>
+        <h2>About Me</h2>
+        <p>Portfolio Homepage</p>
+        <p>Test</p>
+    </main>
 
 </body>
 </html>

@@ -30,16 +30,6 @@ header p {
     cursor: pointer;
 }
 
-.fun-site {
-    background: #ffcc00;
-    color: #121212;
-    padding: 10px 15px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .tabs {
     display: flex;
     justify-content: center;

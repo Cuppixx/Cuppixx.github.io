@@ -3,18 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;
+        img-src 'self' data:;
+        object-src 'none';
+    ">
+    
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    
     <title>Cuppixx - Portfolio</title>
+    
     <script>
-        // Load the navigation bar dynamically
-        document.addEventListener("DOMContentLoaded", function() {
+        // Function to load the navigation bar dynamically
+        function loadNavigationBar() {
             fetch("/nav.html")
-                .then(response => response.text())
+                .then(response => {
+                    if (!response.ok || !response.headers.get("content-type")?.includes("text/html")) {
+                        throw new Error("Invalid navigation content");
+                    }
+                    return response.text();
+                })
                 .then(html => {
                     document.getElementById("navbar").innerHTML = html;
                 })
-                .catch(error => console.error("Error loading navigation:", error));
-        });
+                .catch(error => {
+                    console.error("Error loading navigation:", error);
+                    document.getElementById("navbar").innerHTML = "<p>Navigation failed to load.</p>";
+                });
+        }
+
+        // Wait for the DOM to be ready before executing
+        document.addEventListener("DOMContentLoaded", loadNavigationBar);
     </script>
+    
     <link rel="stylesheet" href="/css/stylesheet.css">
 </head>
 <body>
@@ -23,9 +49,9 @@
 
     <main>
         <h2>Cuppixx - Portfolio</h2>
-        <p>My Portfolio Page</p>
-        <p>WIP</p>
+        <p>The portfolio test page</p>
     </main>
 
 </body>
 </html>
+

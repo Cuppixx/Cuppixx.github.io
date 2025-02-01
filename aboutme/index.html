@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+     <script>
+        // Load the navigation bar dynamically
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("/nav.html")
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById("navbar").innerHTML = html;
+                })
+                .catch(error => console.error("Error loading navigation:", error));
+        });
+    </script>
     <link rel="stylesheet" href="/css/stylesheet.css">
 </head>
 <body>
 
-    <nav>
-      <a href="/">Home</a>
-      <a href="/aboutme/">About Me</a>
-    </nav>
+    <div id="navbar"></div>  <!-- Navigation will be loaded here -->
 
     <main>
         <h2>About Me</h2>

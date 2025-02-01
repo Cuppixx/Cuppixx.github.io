@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+     <script>
+        // Load the navigation bar dynamically
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("/nav.html")
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById("navbar").innerHTML = html;
+                })
+                .catch(error => console.error("Error loading navigation:", error));
+        });
+    </script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+<body>
+
+    <div id="navbar"></div>  <!-- Navigation will be loaded here -->
+
+    <main>
+        <h2>Blog</h2>
+        <p>Welcome to my personal blog</p>
+    </main>
+
+</body>
+</html>

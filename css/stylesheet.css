@@ -41,7 +41,7 @@ nav a:hover{
 main {
     max-width: 33vw;
     height: auto;
-    margin: 15px;
+    margin: 15px auto;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0.1, 0.3);

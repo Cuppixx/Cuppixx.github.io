@@ -20,23 +20,26 @@
                 navbar.innerHTML = "<p>Unable to load navigation. Please try again later.</p>";
             }
         }
-        
- function highlightCurrentTab() {
-            const currentPage = window.location.pathname.split("/").pop() || 'index.html'; // Default to 'index.html' if empty
-            console.log("Current page:", currentPage);
+
+        // Function to highlight the current tab
+        function highlightCurrentTab() {
+            const currentPath = window.location.pathname;  // Get the path after the domain
+            console.log("Current path:", currentPath);
 
             const navLinks = navbar.querySelectorAll("a");
-        
+
             navLinks.forEach(link => {
                 const linkHref = link.getAttribute("href");
                 console.log("Checking link:", linkHref);
-                
-                // Remove the leading '/' if it exists for comparison consistency
-                const linkHrefNormalized = linkHref.replace(/^\/+/, '');
-                const currentPageNormalized = currentPage.replace(/^\/+/, '');
 
-                // Handle both relative paths and full URLs
-                if (linkHrefNormalized === currentPageNormalized || (linkHrefNormalized === '' && currentPageNormalized === 'index.html')) {
+                // Compare the normalized path (removing leading slashes)
+                const normalizedCurrentPath = currentPath.replace(/^\/+/, '');  // Strip leading slashes
+                const normalizedLinkHref = linkHref.replace(/^\/+/, '');  // Strip leading slashes
+
+                // Handle the root path scenario
+                if (normalizedCurrentPath === normalizedLinkHref || 
+                    (normalizedCurrentPath === '' && normalizedLinkHref === 'index.html') || 
+                    (`/${normalizedCurrentPath}` === normalizedLinkHref)) {
                     link.classList.add("active");
                 } else {
                     link.classList.remove("active");
@@ -44,7 +47,7 @@
             });
         }
 
-        // Highlight the current tab when the page is loaded or when the user navigates
+        // Highlight the current tab when the page is loaded
         highlightCurrentTab();
 
         // Handle clicks on navigation links and highlight the current tab after navigation

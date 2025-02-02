@@ -30,7 +30,18 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
     text-align: left;
+}
+.content {
+    flex: 1;
+}
+.profile-image {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
 }
 #pet {
     position: absolute;

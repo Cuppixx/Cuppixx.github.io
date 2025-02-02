@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     
-    min-width: 720px;
+    min-width: 320px;
     
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 1vw;
+    font-size: 2vw;
     color: #333;
     
     background-color: #f4f4f4;
@@ -20,6 +20,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #333;
+    text-align: center;
 }
 nav a {
     margin: 15px 15px;

@@ -23,7 +23,8 @@ nav a:hover {
 }
 main {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 50px 0;
+    margin-left: 15px;
     background: white;
     padding: 20px;
     border-radius: 8px;

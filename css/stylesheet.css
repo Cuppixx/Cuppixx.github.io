@@ -29,21 +29,25 @@ main {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.0, 0.1);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     text-align: left;
+    position: relative;
 }
 .content {
     flex: 1;
 }
 .profile-image {
-    width: 200px;
+    width: 225px;
     height: auto;
     margin-left: 20px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0.584, 0.482, 0.710, 0.3);
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 #pet {
     position: absolute;

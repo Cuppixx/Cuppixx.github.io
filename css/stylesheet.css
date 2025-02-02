@@ -32,16 +32,18 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-align: left;
 }
 .content {
     flex: 1;
 }
 .profile-image {
-    width: 150px;
+    width: 250px;
     height: auto;
     margin-left: 20px;
     border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 #pet {
     position: absolute;

@@ -18,7 +18,8 @@ nav a {
     margin: 0 15px;
     font-size: 24px;
 }
-nav a:hover {
+nav a:hover,  
+nav a.active {
     color: #967bb6;
 }
 main {

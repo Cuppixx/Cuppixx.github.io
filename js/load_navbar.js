@@ -25,13 +25,16 @@
 
         // Function to highlight the current tab
         function highlightCurrentTab() {
-            const currentPage = window.location.pathname.split("/").pop(); // Get current filename
+            const currentPage = window.location.pathname.split("/").pop() || 'index.html'; // Default to 'index.html'
+            console.log("Current page:", currentPage);
             const navLinks = navbar.querySelectorAll("a");
-
+        
             navLinks.forEach(link => {
-                // Compare the href of each link with the current page URL
-                if (link.getAttribute("href") === currentPage) {
-                    link.classList.add("active"); // Add active class to the current link
+                const linkHref = link.getAttribute("href");
+                console.log("Checking link:", linkHref);
+                // Handle relative and full URL matches
+                if (linkHref === currentPage || (linkHref === '/' && currentPage === 'index.html')) {
+                    link.classList.add("active");
                 }
             });
         }

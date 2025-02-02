@@ -1,4 +1,3 @@
-// load_navbar.js
 (function() {
     document.addEventListener("DOMContentLoaded", async function() {
         const navbar = document.getElementById("navbar");
@@ -16,15 +15,13 @@
                 const html = await response.text();
                 navbar.innerHTML = html;
                 localStorage.setItem("navbar", html);
-                highlightCurrentTab(); // Call function to highlight the current tab after loading
             } catch (error) {
                 console.error("Error loading navigation:", error);
                 navbar.innerHTML = "<p>Unable to load navigation. Please try again later.</p>";
             }
         }
-
-        // Function to highlight the current tab
-        function highlightCurrentTab() {
+        
+ function highlightCurrentTab() {
             const currentPage = window.location.pathname.split("/").pop() || 'index.html'; // Default to 'index.html' if empty
             console.log("Current page:", currentPage);
 
@@ -46,5 +43,16 @@
                 }
             });
         }
+
+        // Highlight the current tab when the page is loaded or when the user navigates
+        highlightCurrentTab();
+
+        // Handle clicks on navigation links and highlight the current tab after navigation
+        const navLinks = navbar.querySelectorAll("a");
+        navLinks.forEach(link => {
+            link.addEventListener("click", function() {
+                setTimeout(highlightCurrentTab, 100); // Slight delay to ensure navigation occurs before tab highlighting
+            });
+        });
     });
 })();

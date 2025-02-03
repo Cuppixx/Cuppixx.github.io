@@ -66,8 +66,9 @@ main {
     padding: 5px;
     border-radius: inherit;
     box-shadow: inherit;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 100;
     display: inline-flex;
     flex-direction: row-reverse;

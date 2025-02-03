@@ -16,8 +16,7 @@ body {
 }
 nav {
     height: auto;
-    margin-right: 4px;
-    margin-left: 4px;
+    margin: 0 5px;
     padding: 15px;
     border-radius: 0 0 12px 12px;
     box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
@@ -29,13 +28,12 @@ nav {
     justify-content: center;
 }
 nav a {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 0 15px;
     font-size: 24px;
     color: #f4f4f4;
     text-decoration: none;
 }
-nav a:hover,  
+nav a:hover,
 nav a.active {
     color: #957bb5;
 }
@@ -48,15 +46,25 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0.1, 0.3);
     position: relative;
 }
-@media (max-width: 720px) {
+@media (max-width: 1280px) {
     main {
         max-width: 75vw;
     }
 }
+@media (max-width: 480px) { /* Mobile Devices */
+    main {
+        max-width: 100vw;
+        margin: 0;
+        border-radius: 0;
+    }
+}
 .socials {
+    margin: 10px;
+    padding: 5px;
+    border-radius: inherit;
+    box-shadow: inherit;
     position: sticky;
     top: 0;
-    left: -10px;
     z-index: 100;
     display: inline-flex;
     flex-direction: row-reverse;

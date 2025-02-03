@@ -60,7 +60,7 @@ main {
     padding: 5px;
     border-radius: inherit;
     box-shadow: inherit;
-    position: fixed;
+    position: absolute;
     top: calc(var(--nav-height) + var(--main-margin-top);
     left: calc(50vw + (var(--main-width) / 2) + var(--main-margin-right);
     z-index: 100;

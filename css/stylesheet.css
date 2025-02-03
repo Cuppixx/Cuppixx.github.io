@@ -60,9 +60,9 @@ main {
     padding: 5px;
     border-radius: inherit;
     box-shadow: inherit;
-    position: absolute;
-    top: calc(var(--nav-height) + var(--main-margin-top);
-    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin-right);
+    position: fixed;
+    top: calc(var(--nav-height) + var(--main-margin-top));
+    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin-right));
     z-index: 100;
     display: inline-flex;
     flex-direction: column;

@@ -36,7 +36,8 @@ nav a {
     color: #f4f4f4;
     text-decoration: none;
 }
-nav a:hover{
+nav a:hover,  
+nav a.active {
     color: #957bb5;
 }
 main {
@@ -46,6 +47,20 @@ main {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0.1, 0.3);
+    position: relative;
+}
+@media (max-width: 720px) {
+    main {
+        max-width: 75vw;
+    }
+}
+.socials {
+    position: sticky;
+    top: 0;
+    left: -10px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row-reverse;
 }
 #portfolio-overview{
 }

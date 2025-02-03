@@ -54,12 +54,11 @@ main {
     }
 }
 .socials {
-    width: auto;
     position: sticky;
     top: 0;
     left: -10px;
     z-index: 100;
-    display: flex;
+    display: inline-flex;
     flex-direction: row-reverse;
 }
 .socials a {

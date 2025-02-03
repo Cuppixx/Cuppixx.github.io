@@ -86,8 +86,8 @@ main {
         border-radius: 0;
     }
     .socials {
-        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding);
-        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding);
+        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
+        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding));
         flex-direction: row-reverse;
     }
 }

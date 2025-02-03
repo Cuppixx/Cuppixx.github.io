@@ -1,8 +1,9 @@
 :root {
   --nav-height: 61px;
   --main-width: 50vw;
-  /* Set main-margin and main-padding manually! */
-  --main-margin: 15px; 
+  /* Set 'main-margin-top, main-margin-right, main-padding' manually! */
+  --main-margin-top: 15px;
+  --main-margin-right: 15px;
   --main-padding: 15px;
 }
 * {
@@ -60,8 +61,8 @@ main {
     border-radius: inherit;
     box-shadow: inherit;
     position: fixed;
-    top: calc(var(--nav-height) + var(--main-margin);
-    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin);
+    top: calc(var(--nav-height) + var(--main-margin-top);
+    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin-right);
     z-index: 100;
     display: inline-flex;
     flex-direction: column;
@@ -85,7 +86,7 @@ main {
         border-radius: 0;
     }
     .socials {
-        top: calc(var(--nav-height) + var(--main-margin) + var(--main-padding);
+        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding);
         left: calc(50vw + (var(--main-width) / 2) - var(--main-padding);
         flex-direction: row-reverse;
     }

@@ -25,7 +25,7 @@ body {
 nav {
     height: auto;
     margin: 0 5px;
-    padding: 15px;
+    padding: 0 15px;
     border-radius: 0 0 12px 12px;
     box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
     position: sticky;
@@ -34,12 +34,14 @@ nav {
     z-index: 1000;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 nav a {
-    margin: 0 15px;
+    margin: 15 15px;
     font-size: 24px;
     color: #f4f4f4;
     text-decoration: none;
+    white-space: nowrap;
 }
 nav a:hover,
 nav a.active {
@@ -87,6 +89,8 @@ main {
         border-radius: 0;
     }
     .socials {
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
         top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
         left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - var(--socials-width));
         background-color: #333;

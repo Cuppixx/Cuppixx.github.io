@@ -1,7 +1,9 @@
 :root {
   --nav-height: 61px;
   --main-width: 50vw;
-  --main-margin: 15px;
+  /* Set main-margin and main-padding manually! */
+  --main-margin: 15px; 
+  --main-padding: 15px;
 }
 * {
     margin: 0;
@@ -53,6 +55,24 @@ main {
     overflow-wrap: break-word;
     white-space: normal;
 }
+.socials {
+    padding: 5px;
+    border-radius: inherit;
+    box-shadow: inherit;
+    position: fixed;
+    top: calc(var(--nav-height) + var(--main-margin);
+    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin);
+    z-index: 100;
+    display: inline-flex;
+    flex-direction: column;
+}
+.socials a {
+    color: #333;
+    text-decoration: none;
+}
+.socials a:hover {
+    color: #957bb5;
+}
 @media (max-width: 1280px) {
     main {
         max-width: 75vw;
@@ -64,24 +84,11 @@ main {
         margin: 15px 0;
         border-radius: 0;
     }
-}
-.socials {
-    padding: 5px;
-    border-radius: inherit;
-    box-shadow: inherit;
-    position: absolute;
-    top: calc(var(--nav-height) + var(--main-margin));
-    left: calc(50vw + (var(--main-width) / 2) + var(--main-margin));
-    z-index: 100;
-    display: inline-flex;
-    flex-direction: column;
-}
-.socials a {
-    color: #333;
-    text-decoration: none;
-}
-.socials a:hover {
-    color: #957bb5;
+    .socials {
+        top: calc(var(--nav-height) + var(--main-margin) + var(--main-padding);
+        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding);
+        flex-direction: row-reverse;
+    }
 }
 #portfolio-overview{
 }

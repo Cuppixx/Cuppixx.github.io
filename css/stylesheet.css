@@ -109,11 +109,12 @@ main {
 }
 #portfolio-overview{
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
 }
 #portfolio-overview > #portfolio-info-box {
-
+    flex: 1;
 }
 .profile-image {
     width: 50px;

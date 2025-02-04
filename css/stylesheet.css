@@ -126,8 +126,53 @@ main {
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
 }
 
-#portfolio-experience{
+
+
+
+#portfolio-experience {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.tab-container {
+    display: flex;
+    justify-content: space-between;
+    background: #444;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tab-button:hover,
+.tab-button.active {
+    background: #957bb5;
+}
+.tab-content {
+    display: none;
+    padding: 15px;
+}
+.tab-content.active {
+    display: block;
+}
+
+
+
+
+
+
 #portfolio-skills{
 }
 #portfolio-projects{

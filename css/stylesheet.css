@@ -113,7 +113,7 @@ main {
     justify-content: space-between;
 }
 #portfolio-overview > #portfolio-info-box {
-
+    flex: 1;
 }
 .profile-image {
     width: 225px;

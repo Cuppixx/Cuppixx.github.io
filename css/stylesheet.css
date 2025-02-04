@@ -50,7 +50,6 @@ nav a.active {
     color: #957bb5;
 }
 main {
-    width: 50vw;
     max-width: 800px;
     height: auto;
     margin: 15px auto;
@@ -60,12 +59,6 @@ main {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-}
-@media (max-width: 1400px) {
-    main {
-        width: 75vw;
-        max-width: 75vw;
-    }
 }
 .socials {
     padding: 5px;

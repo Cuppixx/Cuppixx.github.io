@@ -122,7 +122,7 @@ main {
 #portfolio-overview > #portfolio-info-box {
     position: relative;
     margin-bottom: 15px;
-    padding-left: 5px;
+    padding: 7px 0 7px 10px;
 }
 #portfolio-overview > #portfolio-info-box::before {
   content: '';
@@ -130,7 +130,7 @@ main {
   top: 0;
   left: 0;
   width: 5px;
-  height: auto;
+  height: 100%;
   background-color: #957bb5;
   mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
@@ -164,8 +164,8 @@ main {
     color: #f4f4f4;
     flex: 1;
     padding: 10px;
-    border-radius: inherit;
-    font-size: 20px;
+    border: none;
+    font-size: 24px;
     cursor: pointer;
 }
 .tab-button:hover,

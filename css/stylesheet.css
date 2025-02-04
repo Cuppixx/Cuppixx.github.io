@@ -115,7 +115,8 @@ main {
     width: 100%;  
 }
 #portfolio-overview > #portfolio-info-box {
-
+    flex: 0 0 auto;
+    width: auto;
 }
 .profile-image {
     width: 50px;

@@ -120,11 +120,20 @@ main {
     padding: 15px;
 }
 #portfolio-overview > #portfolio-info-box {
+    position: relative;
     margin-bottom: 15px;
     padding-left: 5px;
-    border-left: 5px solid #957bb5;
-    mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
+}
+#portfolio-overview > #portfolio-info-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: auto;
+  background-color: #957bb5;
+  mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
 .profile-image {
     margin-bottom: 30px;
@@ -143,6 +152,9 @@ main {
     margin: auto;
 }
 .tab-container {
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
+    background-color: #333;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -152,7 +164,7 @@ main {
     color: #f4f4f4;
     flex: 1;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: inherit;
     font-size: 20px;
     cursor: pointer;
 }
@@ -160,7 +172,6 @@ main {
 .tab-button.active {
     color: #957bb5;
     border: 3px solid #957bb5;
-    box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
 }
 .tab-content {
     display: none;

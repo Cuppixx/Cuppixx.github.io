@@ -114,9 +114,10 @@ main {
     flex-wrap: wrap;
 }
 #portfolio-overview > #portfolio-info-box {
-  
+    margin-bottom: 15px;
 }
 .profile-image {
+    margin-bottom: 30px;
     width: 225px;
     height: 225px;
     border-radius: 15%;

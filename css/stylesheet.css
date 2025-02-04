@@ -109,6 +109,7 @@ main {
 }
 #portfolio-overview{
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
 }
 #portfolio-overview > #portfolio-info-box {

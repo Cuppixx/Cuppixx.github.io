@@ -117,12 +117,12 @@ main {
   mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
-@media (max-width: 817px) {
+@media (max-width: 837px) {
     .socials {
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
-        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
-        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - var(--socials-width));
+        top: calc(var(--nav-height) + var(--main-margin-top) + 20px);
+        left: calc(50vw + (var(--main-width) / 2) - 20px - var(--socials-width));
         background-color: #333;
         flex-direction: row-reverse;
     }
@@ -135,10 +135,15 @@ main {
     }
     #portfolio-overview > #portfolio-info-box {
         padding-left: 0;
-        margin-right: 11px;
+        margin-right: 31px;
     }
     #portfolio-overview > #portfolio-info-box::before {
         width: 0;
+    }
+}
+@media (max-width: 800px) {
+    #portfolio-overview > #portfolio-info-box {
+        margin-right: 0;
     }
 }
 .profile-image {

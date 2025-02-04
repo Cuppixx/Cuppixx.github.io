@@ -135,8 +135,8 @@ main {
     padding: 20px;
     border-radius: inherit;
     box-shadow: inherit;
-    width: 70%;
-    margin: 45px;
+    width: 75%;
+    margin: auto;
 }
 .tab-container {
     display: flex;

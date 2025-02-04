@@ -118,6 +118,9 @@ main {
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
 @media (max-width: 837px) {
+    main {
+        min-width: 570px;
+    }
     .socials {
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);

@@ -89,6 +89,29 @@ main {
 .socials a i {
     font-size: 28px;
 }
+@media (max-width: 570px) { /* Mobile Devices */
+    main {
+        width: 100vw;
+        max-width: 100vw;
+        margin: 15px 0;
+        border-radius: 0;
+    }
+    .socials {
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
+        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
+        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - var(--socials-width));
+        background-color: #333;
+        flex-direction: row-reverse;
+    }
+    .socials a {
+        margin: 0 5px;
+        color: #f4f4f4;
+    }
+    .socials a i {
+        font-size: 20px;
+    }
+}
 #portfolio-overview{
     display: flex;
     align-items: flex-start;
@@ -112,33 +135,12 @@ main {
   mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
-@media (max-width: 570px) { /* Mobile Devices */
-    main {
-        width: 100vw;
-        max-width: 100vw;
-        margin: 15px 0;
-        border-radius: 0;
-    }
-    .socials {
-        border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
-        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
-        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - var(--socials-width));
-        background-color: #333;
-        flex-direction: row-reverse;
-    }
-    .socials a {
-        margin: 0 5px;
-        color: #f4f4f4;
-    }
-    .socials a i {
-        font-size: 20px;
-    }
+@media (max-width: 872px) {
     #portfolio-overview > #portfolio-info-box {
-        padding: 0 0 0 5px;
+        padding: 0;
     }
     #portfolio-overview > #portfolio-info-box::before {
-        height: 0;
+        width: 0;
     }
 }
 .profile-image {

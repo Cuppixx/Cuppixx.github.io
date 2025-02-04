@@ -141,11 +141,13 @@ main {
 .tab-container {
     display: flex;
     justify-content: space-between;
-    background: #333;
+    background-color: #333;
     border-radius: 8px;
     overflow: hidden;
 }
 .tab-button {
+    background-color: #333;
+    color: #f4f4f4;
     flex: 1;
     padding: 10px;
     border: none;

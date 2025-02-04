@@ -135,14 +135,15 @@ main {
     padding: 20px;
     border-radius: inherit;
     box-shadow: inherit;
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 .tab-container {
     display: flex;
     justify-content: space-between;
     background-color: #333;
-    border-radius: 8px;
+    border-radius: inherit;
+    box-shadow: inherit;
     overflow: hidden;
 }
 .tab-button {
@@ -157,7 +158,8 @@ main {
 }
 .tab-button:hover,
 .tab-button.active {
-    background: #957bb5;
+    color: #957bb5;
+    border: 2px solid #957bb5;
 }
 .tab-content {
     display: none;

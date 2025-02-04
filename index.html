@@ -35,29 +35,9 @@
             <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="#" onclick="copyEmail(event)" title="Copy email to clipboard">
+            <a href="#" target="_blank" rel="noopener noreferrer">
                 <i class="fa-solid fa-envelope"></i>
             </a>
-            <span id="copy-message" style="display: none; color: green; margin-left: 10px;">Email copied!</span>
-            
-            <script>
-            function copyEmail(event) {
-                event.preventDefault();
-            
-                const email = "your.email@example.com";
-                navigator.clipboard.writeText(email).then(() => {
-
-                    const message = document.getElementById("copy-message");
-                    message.style.display = "inline"; 
-
-                    setTimeout(() => {
-                        message.style.display = "none";
-                    }, 2000);
-                }).catch(err => {
-                    console.error("Failed to copy email: ", err);
-                });
-            }
-            </script>
             <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-itch-io"></i>
             </a>

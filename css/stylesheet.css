@@ -132,15 +132,6 @@ main {
   mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
-@media (max-width: 872px) {
-    #portfolio-overview > #portfolio-info-box {
-        padding: 0;
-        margin-right: 14px;
-    }
-    #portfolio-overview > #portfolio-info-box::before {
-        width: 0;
-    }
-}
 .profile-image {
     margin-bottom: 30px;
     width: 100%;

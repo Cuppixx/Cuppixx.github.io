@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const tabName = button.getAttribute('data-tab');
-            switch_tab(tabName);
+            showTab(tabName);
         });
     });
 });

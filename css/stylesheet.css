@@ -65,12 +65,12 @@ main {
         max-width: 80vw;
     }
 }
-@media (max-width: 587px) { /* Mobile Devices */
+@media (max-width: 410px) { /* Mobile Devices */
     main {
-        min-width: unset;
         width: 100%;
         max-width: 100vw;
         margin: 15px 0;
+        padding: 5px;
         border-radius: 0;
     }
 }
@@ -120,9 +120,6 @@ main {
   -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
 @media (max-width: 837px) {
-    main {
-        min-width: 570px;
-    }
     .socials {
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);

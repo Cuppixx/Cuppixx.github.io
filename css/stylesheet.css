@@ -126,8 +126,8 @@ main {
     .socials {
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
-        top: calc(var(--nav-height) + var(--main-margin-top) + 20px);
-        left: calc(50vw + (var(--main-width) / 2) - 20px - var(--socials-width));
+        top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
+        left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - 5px - var(--socials-width)); /* 5px is the socials padding */
         background-color: #333;
         flex-direction: row-reverse;
     }

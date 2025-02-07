@@ -21,7 +21,3 @@ window.addEventListener('DOMContentLoaded', updateDynamicPositions);
 window.addEventListener('load', updateDynamicPositions);
 window.addEventListener('resize', updateDynamicPositions);
 window.addEventListener('orientationchange', updateDynamicPositions);
-
-// Listen for CSS transitions to complete
-document.querySelector('nav').addEventListener('transitionend', updateDynamicPositions);
-document.querySelector('main').addEventListener('transitionend', updateDynamicPositions);

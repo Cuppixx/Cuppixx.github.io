@@ -1,102 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self';
-        script-src 'self' https://kit.fontawesome.com;
-        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://ka-f.fontawesome.com;
-        font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
-        connect-src 'self' https://ka-f.fontawesome.com;
-        img-src 'self' data:;
-        object-src 'none';
-    ">
-    
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    
-    <title>Cuppixx - Portfolio</title>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/stylesheet.css">
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
+            script-src-elem 'self' http://localhost:8000;
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
+            connect-src 'self' https://ka-f.fontawesome.com;
+            img-src 'self' data:;
+            object-src 'none';
+        ">
+        
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-    <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
-    <script src="../js/load_navbar.js"></script>
-    <script src="../js/position_socials.js" defer></script>
-    <script src="../js/switch_tab.js" defer></script>
-</head>
-<body>
-    <div id="navbar"></div>
-    <main>
-        <div class="socials">
-            <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-itch-io"></i>
-            </a>
-            <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-twitch"></i>
-            </a>
-        </div>
-        <div id="portfolio-overview">
-            <div id="portfolio-info-box">
-                <h1>Cuppixx - 23yo</h1>
-                <h2 style="margin-top: 15px;">Hobbyist game developer</h2>
-                <h2>Studying 'IT Software Systems'</h2>
-                <h2 style="margin-bottom: 15px;">BA - 6th Semester</h2>
-                <h3> <i class="fas fa-map-marker-alt"></i> Germany</h3>
-            </div>
-            <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer">
-                <img src="../images/profile.png" alt="Profile Image" class="profile-image">
-            </a>
-        </div>
-        <div id="portfolio-experience">
-            <div class="tab-container">
-                <button class="tab-button active" data-tab="work">Work</button>
-                <button class="tab-button" data-tab="education">Education</button>
-            </div>
-        
-            <div id="work" class="tab-content active">
-                <ul>
-                    <li><strong>Placeholder</strong> - Placeholder</li>
-                    <li><strong>Placeholder</strong> - Placeholder with long text aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    </li>
-                    <li><strong>Placeholder</strong> - Placeholder</li>
-                </ul>
-            </div>
-        
-            <div id="education" class="tab-content">
-                <ul>
-                    <li><strong>Placeholder</strong> - Placeholder</li>
-                    <li><strong>Placeholder</strong> - Placeholder with long text aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </main>
-</body>
+        <title>Cuppixx - Portfolio</title>
+
+        <!-- Preconnect for Font Optimization -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="../css/stylesheet.css">
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
+        <script src="../js/load_navbar.js" defer></script>
+        <script src="../js/position_socials.js" defer></script>
+        <script src="../js/switch_tab.js" defer></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div id="navbar"></div>
+
+        <!-- Main -->
+        <main>
+            <!-- Portfolio Overview -->
+            <section id="portfolio-overview">
+                <div id="portfolio-info-box">
+                    <h1>Cuppixx - 23yo</h1>
+                    <h2 style="margin-top: 15px;">Hobbyist game developer</h2>
+                    <h2>Studying 'IT Software Systems'</h2>
+                    <h2 style="margin-bottom: 15px;">BA - 6th Semester</h2>
+                    <h3> <i class="fas fa-map-marker-alt"></i> Germany</h3>
+                </div>
+
+                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/profile.png" alt="Profile Image" class="profile-image" loading="lazy">
+                </a>
+            </section>
+
+            <!-- Portfolio Experience -->
+            <section id="portfolio-experience">
+                <div class="tab-button-container">
+                    <button class="tab-button active" data-tab="work-tab">Work</button>
+                    <button class="tab-button" data-tab="education-tab">Education</button>
+                </div>
+
+                <div id="work-tab" class="tab-content active">
+                    <ul>
+                        <li><strong>Placeholder</strong> - Work Placeholder</li>
+                        <li><strong>Placeholder</strong> - Work Placeholder</li>
+                    </ul>
+                </div>
+            
+                <div id="education-tab" class="tab-content">
+                    <ul>
+                        <li><strong>Placeholder</strong> - Education Placeholder</li>
+                        <li><strong>Placeholder</strong> - Education Placeholder</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Social Media Links -->
+            <section class="socials">
+                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-envelope"></i></a>
+                <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-itch-io"></i></a>
+                <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitch"></i></a>
+            </section>
+        </main>
+    </body>
 </html>

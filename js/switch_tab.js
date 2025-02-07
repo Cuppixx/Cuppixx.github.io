@@ -1,38 +1,30 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Select all tab buttons
     const buttons = document.querySelectorAll('.tab-button');
-    
-    // Attach click event listeners to each button
+    const tabContents = document.querySelectorAll('.tab-content');
+
     buttons.forEach(button => {
         button.addEventListener('click', function() {
             const tabName = button.getAttribute('data-tab');
             showTab(tabName);
         });
     });
-});
 
-function showTab(tabName) {
-    // Remove 'active' class from all tab content elements
-    document.querySelectorAll('.tab-content').forEach((tab) => {
-        tab.classList.remove('active');
-    });
-    
-    // Remove 'active' class from all tab buttons
-    document.querySelectorAll('.tab-button').forEach((btn) => {
-        btn.classList.remove('active');
-    });
-    
-    // Add 'active' class to the selected tab content
-    const targetTab = document.getElementById(tabName);
-    if (targetTab) {
-        targetTab.classList.add('active');
-    } else {
-        console.error("No element with id", tabName);
+    function showTab(tabName) {
+        tabContents.forEach((tab) => tab.classList.remove('active'));
+        buttons.forEach((btn) => btn.classList.remove('active'));
+
+        const targetTab = document.getElementById(tabName);
+        if (targetTab) {
+            targetTab.classList.add('active');
+        } else {
+            console.error(`No tab content found with id: "${tabName}"`);
+        }
+
+        const targetButton = document.querySelector(`.tab-button[data-tab="${tabName}"]`);
+        if (targetButton) {
+            targetButton.classList.add('active');
+        } else {
+            console.error(`No button found with data-tab: "${tabName}"`);
+        }
     }
-    
-    // Add 'active' class to the corresponding button
-    const targetButton = document.querySelector(`.tab-button[data-tab="${tabName}"]`);
-    if (targetButton) {
-        targetButton.classList.add('active');
-    }
-}
+});

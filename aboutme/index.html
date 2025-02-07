@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self';
-        script-src 'self';
-        style-src 'self' https://fonts.googleapis.com;
-        font-src 'self' https://fonts.gstatic.com;
-        img-src 'self' data:;
-        object-src 'none';
-    ">
-    
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    
-    <title>Cuppixx - About Me</title>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
+            script-src-elem 'self' http://localhost:8000;
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
+            connect-src 'self' https://ka-f.fontawesome.com;
+            img-src 'self' data:;
+            object-src 'none';
+        ">
+        
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        
+        <title>Cuppixx - About Me</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/stylesheet.css">
-    
-    <script src="/js/load_navbar.js"></script>
-</head>
-<body>
+        <!-- Preconnect for Font Optimization -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
 
-    <div id="navbar"></div>  <!-- Navigation will be loaded here -->
-    
-    <div id="pet"></div> <!-- The pet element -->
-    <script src="/js/website_pet.js" defer></script>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="../../css/stylesheet.css">
 
-    <main>
-        <h2>Cuppixx - About Me</h2>
-        <p>The about me test page</p>
-    </main>
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
+        <script src="../../js/load_navbar.js" defer></script>
+    </head>
 
-</body>
+    <body>
+        <!-- Navbar -->
+        <div id="navbar"></div>
+        
+        <div id="pet"></div>
+        <script src="../../js/website_pet.js" defer></script>
+
+        <main>
+            <h2>Cuppixx - About Me</h2>
+            <p>The about me test page</p>
+        </main>
+    </body>
 </html>

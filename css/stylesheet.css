@@ -96,7 +96,8 @@
   
   .socials a:hover {
       color: var(--hover-color, #957bb5);
-      border: 3px solid #957bb5;
+      transform: scale(0.95);
+      transition: transform 0.2s ease-in-out;
   }
   
   .socials a i {
@@ -141,6 +142,7 @@
   }
 
   .profile-image:hover {
+      border: 3px solid #957bb5;
       transform: scale(0.95);
       transition: transform 0.2s ease-in-out;
 }
@@ -173,9 +175,9 @@
       cursor: pointer;
   }
   
-  .tab-button:hover {
+  .tab-button:not(.active):hover {
       color: #957bb5;
-      transform: scale(0.95);
+      transform: scale(0.90);
       transition: transform 0.2s ease-in-out;
   }
   

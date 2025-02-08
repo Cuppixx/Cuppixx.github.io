@@ -55,7 +55,8 @@
   
   nav a:hover {
       color: #957bb5;
-      border: 2px solid #957bb500;
+      transform: scale(0.95);
+      transition: transform 0.2s ease-in-out;
   }
 
   nav a.active {
@@ -95,7 +96,7 @@
   
   .socials a:hover {
       color: var(--hover-color, #957bb5);
-      border: 2px solid #957bb500;
+      border: 3px solid #957bb5;
   }
   
   .socials a i {
@@ -140,7 +141,8 @@
   }
 
   .profile-image:hover {
-      border: 2px solid #957bb500;
+      transform: scale(0.95);
+      transition: transform 0.2s ease-in-out;
 }
   
   #portfolio-experience {
@@ -173,7 +175,8 @@
   
   .tab-button:hover {
       color: #957bb5;
-      border: 2px solid #957bb500;
+      transform: scale(0.95);
+      transition: transform 0.2s ease-in-out;
   }
   
   .tab-button.active {

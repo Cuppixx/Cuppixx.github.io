@@ -51,12 +51,12 @@
       color: #f4f4f4;
       text-decoration: none;
       white-space: nowrap;
+      transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
   }
   
   nav a:hover {
       color: #957bb5;
       transform: scale(0.95);
-      transition: transform 0.2s ease-in-out;
   }
 
   nav a.active {
@@ -92,12 +92,12 @@
       margin: 5px 0;
       color: #333;
       text-decoration: none;
+      transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
   }
   
   .socials a:hover {
       color: var(--hover-color, #957bb5);
-      transform: scale(0.92), rotate(15deg);
-      transition: transform 0.2s ease-in-out;
+      transform: scale(0.92) rotate(5deg);
   }
   
   .socials a i {
@@ -139,13 +139,14 @@
       height: auto;
       border-radius: 15%;
       box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
+      border: 2px solid transparent;
+      transition: transform 0.2s ease-in-out, border-width 0.3s ease-in-out, border-color 0.4s ease-in-out;
   }
 
   .profile-image:hover {
       border-width: 2px;
       border-color: #957bb5;
-      transform: scale(0.97) rotate(-15deg);
-      transition: transform 0.2s ease-in-out, border-width 0.3s ease-in, border-color 0.4s ease-in;
+      transform: scale(0.97) rotate(-7deg);
 }
   
   #portfolio-experience {
@@ -174,12 +175,12 @@
       border: none;
       font-size: 24px;
       cursor: pointer;
+      transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
   }
   
   .tab-button:not(.active):hover {
       color: #957bb5;
       transform: scale(0.92);
-      transition: transform 0.2s ease-in-out;
   }
   
   .tab-button.active {

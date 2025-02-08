@@ -6,8 +6,8 @@ const updateDynamicPositions = () => {
   const navHeight = nav.offsetHeight;
   const mainWidth = main.offsetWidth;
   const mainStyles = window.getComputedStyle(main);
-  const mainMarginTop = parseFloat(mainStyles.marginTop) || 15;
-  const mainPaddingTop = parseFloat(mainStyles.paddingTop) || 15;
+  const mainMarginTop = parseFloat(mainStyles.marginTop) || 0;
+  const mainPaddingTop = parseFloat(mainStyles.paddingTop) || 0;
   const socialsWidth = socials.offsetWidth;
 
   document.documentElement.style.setProperty('--nav-height', `${navHeight}px`);

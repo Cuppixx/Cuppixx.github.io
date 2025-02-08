@@ -1,10 +1,10 @@
 :root {
-    --nav-height: 58px;
-    --main-width: 50vw;
-    --main-margin-top: 15px;
+    --nav-height: 80vh;
+    --main-width: -100vw;
+    --main-margin-top: 0px;
     --main-margin-right: 12px; /* Set 'main-margin-right' manually! */
-    --main-padding: 15px; /* Uses 'padding-right' */
-    --socials-width: 158px;
+    --main-padding: 0px; /* Is assigned with 'padding-right' values*/
+    --socials-width: -12px; /* To provide a good fallback layout set 'socials-width' to -('main-margin-right')! */
   }
   
   * {
@@ -14,6 +14,7 @@
   }
   
   html, body {
+      min-width: 358px;
       margin: 0;
       padding: 0;
       font-family: "DM Sans", sans-serif;
@@ -104,6 +105,7 @@
   
   #portfolio-overview > #portfolio-info-box {
       position: relative;
+      margin-right: 15px;
       margin-bottom: 15px;
       padding: 7px 0 7px 10px;
   }
@@ -164,7 +166,7 @@
   
   .tab-button.active {
       color: #957bb5;
-      border-radius: 30px;
+      border-radius: inherit;
       border: 3px solid #957bb5;
   }
   
@@ -185,12 +187,20 @@
       }
   }
   
-  @media (max-width: 837px) {
+  @media (max-width: 540px) {
+      main {
+          width: 100%;
+          max-width: 100vw;
+          margin: 15px 0;
+          padding: 4px 4px 0 4px;
+          border-radius: 0px;
+      }
+
       .socials {
           border-radius: 8px;
           box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
           top: calc(var(--nav-height) + var(--main-margin-top) + var(--main-padding));
-          left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - 10px - var(--socials-width)); /* 10px is the socials padding (left and right) */
+          left: calc(50vw + (var(--main-width) / 2) - var(--main-padding) - var(--socials-width));
           background-color: #333;
           flex-direction: row-reverse;
       }
@@ -203,33 +213,15 @@
       .socials a i {
           font-size: 24px;
       }
-  
+
       #portfolio-overview > #portfolio-info-box {
+          margin-right: 0;
           padding-left: 0;
-          margin-right: 31px;
       }
   
       #portfolio-overview > #portfolio-info-box::before {
           width: 0;
-      }
-  }
-  
-  @media (max-width: 800px) {
-      #portfolio-overview > #portfolio-info-box {
-          margin-right: 0;
-      }
-  }
-  
-  @media (max-width: 525px) {
-      main {
-          width: 100%;
-          max-width: 100vw;
-          margin: 15px 0;
-          padding-left: 4px;
-          padding-right: 4px;
-          padding-top: 4px;
-          border-radius: 0;
-      }
+      }      
   }
   
   /* TODO Sections */

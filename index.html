@@ -7,12 +7,18 @@
         <meta http-equiv="Content-Security-Policy" content="
             default-src 'self';
             script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
-            script-src-elem 'self' https://kit.fontawesome.com;
+            script-src-elem 'self' 'strict-dynamic' https://kit.fontawesome.com;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
             connect-src 'self' https://ka-f.fontawesome.com;
+            manifest-src 'self';
             img-src 'self' data:;
+            media-src 'self';
             object-src 'none';
+            frame-ancestors 'none';
+            worker-src 'none';
+            base-uri 'self';
+            upgrade-insecure-requests;
         ">
         
         <meta http-equiv="X-Frame-Options" content="DENY">
@@ -79,12 +85,12 @@
             </section>
 
             <!-- Social Media Links -->
-            <section class="socials">
+            <aside class="socials">
                 <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github"></i></a>
                 <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-envelope"></i></a>
                 <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-itch-io"></i></a>
                 <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitch"></i></a>
-            </section>
+            </aside>
         </main>
     </body>
 </html>

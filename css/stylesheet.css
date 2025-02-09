@@ -246,10 +246,13 @@
       max-width: 80px;
       max-height: 80px;
       z-index: 1;
-      transition: border-color 0.2s ease-in-out;
+      transition: border-color 0.2s ease-in-out, transform 0.3s ease-in-out;
 
-  }:hover {
+  }
+
+  .tab-content-timeline > .timeline-item img:hover {
       border-color: #957bb5;
+      transform: scale(1.05) rotate(-7deg);
   }
   
   /* Media Queries */

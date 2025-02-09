@@ -209,6 +209,39 @@
   .tab-content.active {
       display: block;
   }
+
+  .tab-content-timeline {
+      padding-left: 15px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+
+  .tab-content-timeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 30px;
+      width: 4px;
+      height: 100%;
+      background-color: #957bb5;
+      mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
+      -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
+  }
+  .tab-content-timeline > .timeline-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+  .tab-content-timeline > .timeline-item img {
+      border-radius: 50%;
+      border: 3px solid #957bb5;
+      max-width: 30px;
+      max-height: 30px;
+  }
   
   /* Media Queries */
   

@@ -234,8 +234,8 @@
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
-      margin-bottom: 10px;
-      margin-top: 10px;
+      margin-bottom: 14px;
+      margin-top: 14px;
   }
 
   .tab-content-timeline > .timeline-item img {
@@ -253,6 +253,12 @@
       border-width: 2px;
       border-color: #957bb5;
       transform: scale(1.25) rotate(-12deg);
+  }
+
+  .tab-content-timeline > .timeline-item > .timeline-item-content {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;    
   }
 
   /* Media Queries */

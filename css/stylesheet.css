@@ -343,7 +343,9 @@
       color: #f4f4f4;
   }
   
-
+  .portfolio-skills-content .skill-item:last-child {
+      margin-right: 0;
+  }
 
 
 

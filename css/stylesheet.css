@@ -164,7 +164,7 @@
   #portfolio-experience {
       padding: 20px 20px 5px 20px;
       margin: auto;
-      margin-bottom: 15px;
+      margin-bottom: 45px;
       border-radius: 8px;
       box-shadow: inherit;
       width: 85%;
@@ -310,6 +310,9 @@
   #portfolio-skills {
       margin: 25px auto;
       width: 85%;
+      padding: 20px 0 20px 20px;
+      border-radius: 8px;
+      box-shadow: inherit;
   }
 
   #portfolio-skills-content {
@@ -328,7 +331,7 @@
       background: #333;
       padding: 5px;
       margin: 10px 20px 10px 0;
-      border-radius: 8px;
+      border-radius: 18px;
       box-shadow: 0px 0px 10px rgba(0.1, 0.1, 0.1, 0.2);
       border: 5px solid var(--border-color, #957bb5);
       transition: transform 0.2s ease-in-out;
@@ -341,7 +344,7 @@
   .skill-item img {
       width: 75px;
       height: 75px;
-      border-radius: 4px;
+      border-radius: 10px;
   }
   
   .skill-item p {

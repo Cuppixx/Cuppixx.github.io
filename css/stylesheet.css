@@ -307,10 +307,10 @@
   }
   
   /* TODO Sections */
-  #portfolio-skills {
+  .portfolio-skills {
       margin: 25px auto;
       width: 85%;
-      padding: 20px 20px 0 20px;
+      padding: 20px;
       border-radius: 8px;
       box-shadow: inherit;
   }
@@ -341,6 +341,12 @@
   .skill-item p {
       font-size: 18px;
       color: #f4f4f4;
+  }
+  #portfolio-skills h2 {
+      font-size: 24px;
+  }
+  #portfolio-skills h1 {
+      font-size: 28px;
   }
   
   .portfolio-skills-content .skill-item:last-child {

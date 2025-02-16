@@ -359,4 +359,51 @@
   #portfolio-projects {
       display: flex;
   }
-  
+
+
+
+.aboutme-layout {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.aboutme-layout > .center {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #ddd;
+}
+
+.aboutme-layout > .left {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #cfc;
+}
+
+.aboutme-layout > .top {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #ccf;
+}
+
+.right {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #fcc;
+}
+
+.aboutme-layout > .bottom {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #ffc;
+}
+
+.aboutme-layout > .box {
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #999;
+}

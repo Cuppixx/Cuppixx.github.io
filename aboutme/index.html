@@ -3,22 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <meta http-equiv="Content-Security-Policy" content="
             default-src 'self';
             script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
-            script-src-elem 'self' http://localhost:8000;
+            script-src-elem 'self' https://kit.fontawesome.com;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
             connect-src 'self' https://ka-f.fontawesome.com;
+            manifest-src 'self';
             img-src 'self' data:;
+            media-src 'self';
             object-src 'none';
+            worker-src 'none';
+            base-uri 'self';
+            upgrade-insecure-requests;
         ">
         
         <meta http-equiv="X-Frame-Options" content="DENY">
         <meta http-equiv="X-Content-Type-Options" content="nosniff">
-        
-        <title>Cuppixx - About Me</title>
+
+        <title>Cuppixx - Aboutme</title>
 
         <!-- Preconnect for Font Optimization -->
         <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
@@ -26,23 +31,35 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
 
         <!-- Stylesheet -->
-        <link rel="stylesheet" href="../../css/stylesheet.css">
+        <link rel="stylesheet" href="../css/stylesheet.css">
 
         <!-- JavaScript -->
         <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
-        <script src="../../js/load_navbar.js" defer></script>
+        <script src="../js/load_navbar.js" defer></script>
+        <script src="../js/position_socials.js" defer></script>
+        <script src="../js/switch_tab.js" defer></script>
+        <script src="../js/spiderweb.js" defer></script>
     </head>
 
     <body>
+        <!-- Canvas -->
+        <canvas id="spiderweb"></canvas>
+
         <!-- Navbar -->
         <div id="navbar"></div>
-        
-        <div id="pet"></div>
-        <script src="../../js/website_pet.js" defer></script>
 
+        <!-- Main -->
         <main>
-            <h2>Cuppixx - About Me</h2>
-            <p>The about me test page</p>
-        </main>
+            <h1>About Me</h1>
+            <p>TEST</p>
+
+            <!-- Social Media Links -->
+            <aside class="socials">
+                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer" style="--hover-color: #6e5494;"> <i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" style="--hover-color: #1A73E8;"> <i class="fa-solid fa-envelope"></i></a>
+                <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer" style="--hover-color: #D44638;"> <i class="fa-brands fa-itch-io"></i></a>
+                <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer" style="--hover-color: #9146FF;"> <i class="fa-brands fa-twitch"></i></a>
+            </aside>
+        </main>            
     </body>
 </html>

@@ -440,19 +440,19 @@
 }
 
 
-.aboutme-layout > .bottom :hover {
+.aboutme-layout > .bottom:hover {
     border-width: 3px;
     border-color: #957bb5;
 }
-.aboutme-layout > .left :hover {
+.aboutme-layout > .left:hover {
     border-width: 3px;
     border-color: #957bb5;
 }
-.aboutme-layout > .top :hover {
+.aboutme-layout > .top:hover {
     border-width: 3px;
     border-color: #957bb5;
 }
-.aboutme-layout > .center :hover {
+.aboutme-layout > .center:hover {
     border-width: 3px;
     border-color: #957bb5;
 }

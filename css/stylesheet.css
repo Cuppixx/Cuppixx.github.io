@@ -167,7 +167,7 @@
       margin-bottom: 45px;
       border-radius: 8px;
       box-shadow: inherit;
-      width: 85%;
+      width: 88%;
   }
   
   .tab-button-container {
@@ -309,14 +309,15 @@
   /* TODO Sections */
   .portfolio-skills {
       margin: 25px auto;
-      width: 85%;
+      width: 88%;
       padding: 20px;
       border-radius: 8px;
       box-shadow: inherit;
   }
 
   .portfolio-skills-content {
-      margin-bottom: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       text-align: center;
       display: flex;
       flex-direction: row;
@@ -341,12 +342,11 @@
   .skill-item p {
       font-size: 17px;
       color: #f4f4f4;
+      margin: auto 4px;
   }
+
   #portfolio-skills h2 {
       font-size: 24px;
-  }
-  #portfolio-skills h1 {
-      font-size: 28px;
   }
   
   .portfolio-skills-content .skill-item:last-child {

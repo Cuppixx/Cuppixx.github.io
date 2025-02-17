@@ -372,6 +372,11 @@
     grid-template-rows: auto auto auto;
     gap: 10px;
     max-width: inherit;
+
+    text-align: justify;
+    word-break: normal;
+    overflow-wrap: normal;
+    white-space: normal;
 }
 
 .aboutme-layout > .center {
@@ -413,9 +418,6 @@
 
 .aboutme-layout > .top p {
     font-family: "Dancing Script", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
 }
 
 .aboutme-layout > .right {
@@ -434,9 +436,6 @@
 .aboutme-layout > .right h1 {
     text-align: center;
     font-family: "Dancing Script", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
     font-size: 48px;
 }
 
@@ -478,6 +477,6 @@
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
 }
 
-.aboutme-layout > .below h1 {
+.aboutme-layout > .below h2 {
     text-align: center;
 }

@@ -405,6 +405,17 @@
     transition: border-width 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
+.aboutme-layout > .left ul {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aboutme-layout > .left h3 {
+    margin-bottom: 4px;
+}
+
 .aboutme-layout > .top {
     grid-column: 1 / 3;
     grid-row: 1;
@@ -479,8 +490,9 @@
     transition: border-width 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.aboutme-layout > .below h2 {
+.aboutme-layout > .below h3 {
     text-align: center;
+    margin: 10px auto;
 }
 
 .aboutme-layout > .below:hover {

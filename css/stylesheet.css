@@ -475,8 +475,15 @@
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
+    border: 3px solid transparent;
+    transition: border-width 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .aboutme-layout > .below h2 {
     text-align: center;
+}
+
+.aboutme-layout > .below:hover {
+    border-width: 3px;
+    border-color: #957bb5;
 }

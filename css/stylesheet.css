@@ -307,7 +307,7 @@
   }
   
   /* TODO Sections */
-  .portfolio-skills {
+  #portfolio-skills {
       margin: 25px auto;
       width: 88%;
       padding: 20px;
@@ -344,8 +344,8 @@
   }
 
   #portfolio-skills h2 {
-      margin-top: 24px;
-      font-size: 24px;
+      margin-top: 20px;
+      font-size: 25px;
   }
   
   .portfolio-skills-content .skill-item:last-child {

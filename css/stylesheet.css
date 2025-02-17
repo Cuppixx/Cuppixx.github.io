@@ -316,8 +316,6 @@
   }
 
   .portfolio-skills-content {
-      margin-top: 10px;
-      margin-bottom: 10px;
       text-align: center;
       display: flex;
       flex-direction: row;
@@ -346,6 +344,7 @@
   }
 
   #portfolio-skills h2 {
+      margin-top: 24px;
       font-size: 24px;
   }
   

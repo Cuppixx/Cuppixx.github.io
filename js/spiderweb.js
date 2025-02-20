@@ -69,64 +69,64 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.globalAlpha = 1; // Reset alpha
         ctx.shadowBlur = 0;  // Reset shadow
 
-        // Helper function: Fisher-Yates shuffle
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
-        }
+        // // Helper function: Fisher-Yates shuffle
+        // function shuffleArray(array) {
+        //     for (let i = array.length - 1; i > 0; i--) {
+        //         const j = Math.floor(Math.random() * (i + 1));
+        //         [array[i], array[j]] = [array[j], array[i]];
+        //     }
+        //     return array;
+        // }
 
-        // Compute distances and select the 10 nearest points
-        let nearest10 = points
-            .map(p => ({ ...p, distance: (p.x - mousePos.x) ** 2 + (p.y - mousePos.y) ** 2 }))
-            .sort((a, b) => a.distance - b.distance)
-            .slice(0, 10);
+        // // Compute distances and select the 10 nearest points
+        // let nearest10 = points
+        //     .map(p => ({ ...p, distance: (p.x - mousePos.x) ** 2 + (p.y - mousePos.y) ** 2 }))
+        //     .sort((a, b) => a.distance - b.distance)
+        //     .slice(0, 10);
 
-        // Shuffle the 10 nearest points and then select 5 random ones
-        let nearest = shuffleArray(nearest10).slice(0, 5);
+        // // Shuffle the 10 nearest points and then select 5 random ones
+        // let nearest = shuffleArray(nearest10).slice(0, 5);
 
-        // Set composite for a glowing effect
-        ctx.globalCompositeOperation = 'lighter';
+        // // Set composite for a glowing effect
+        // ctx.globalCompositeOperation = 'lighter';
 
-        nearest.forEach(p => {
-            // Compute distance for dynamic adjustments
-            const dx = p.x - mousePos.x;
-            const dy = p.y - mousePos.y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
+        // nearest.forEach(p => {
+        //     // Compute distance for dynamic adjustments
+        //     const dx = p.x - mousePos.x;
+        //     const dy = p.y - mousePos.y;
+        //     const distance = Math.sqrt(dx * dx + dy * dy);
         
-            // Dynamic control point offset (10% of distance)
-            let offset = distance * 0.1;  // You can adjust this factor for more/less effect
+        //     // Dynamic control point offset (10% of distance)
+        //     let offset = distance * 0.1;  // You can adjust this factor for more/less effect
         
-            // Introduce random variation to the offset (random up/down/in/out)
-            let randomFactor = (Math.random() - 0.5) * 2; // Random value between -1 and 1
-            offset *= randomFactor; // Apply random factor to the offset to vary direction
+        //     // Introduce random variation to the offset (random up/down/in/out)
+        //     let randomFactor = (Math.random() - 0.5) * 2; // Random value between -1 and 1
+        //     offset *= randomFactor; // Apply random factor to the offset to vary direction
         
-            let cpX = (mousePos.x + p.x) / 2;
-            let cpY = (mousePos.y + p.y) / 2 - offset; // Apply offset to make the curve more pronounced
+        //     let cpX = (mousePos.x + p.x) / 2;
+        //     let cpY = (mousePos.y + p.y) / 2 - offset; // Apply offset to make the curve more pronounced
         
-            // Variable line width (between 0.5 and 1.75 based on distance)
-            ctx.lineWidth = Math.max(0.5, Math.min(1.75, 1.75 - distance / 100));
+        //     // Variable line width (between 0.5 and 1.75 based on distance)
+        //     ctx.lineWidth = Math.max(0.5, Math.min(1.75, 1.75 - distance / 100));
         
-            // Set a fixed star color without any twinkling effect
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+        //     // Set a fixed star color without any twinkling effect
+        //     ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
         
-            // Set a subtle glow
-            ctx.shadowBlur = 5;
-            ctx.shadowColor = 'white';
+        //     // Set a subtle glow
+        //     ctx.shadowBlur = 5;
+        //     ctx.shadowColor = 'white';
         
-            ctx.beginPath();
-            ctx.moveTo(mousePos.x, mousePos.y);
-            ctx.quadraticCurveTo(cpX, cpY, p.x, p.y);
-            ctx.stroke();
+        //     ctx.beginPath();
+        //     ctx.moveTo(mousePos.x, mousePos.y);
+        //     ctx.quadraticCurveTo(cpX, cpY, p.x, p.y);
+        //     ctx.stroke();
         
-            // Reset shadow after drawing each line
-            ctx.shadowBlur = 0;
-        });
+        //     // Reset shadow after drawing each line
+        //     ctx.shadowBlur = 0;
+        // });
 
-        // Reset composite operation
-        ctx.globalCompositeOperation = 'source-over';
+        // // Reset composite operation
+        // ctx.globalCompositeOperation = 'source-over';
 
         requestAnimationFrame(draw);
     }

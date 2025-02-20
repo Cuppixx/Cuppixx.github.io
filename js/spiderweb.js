@@ -69,6 +69,15 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.globalAlpha = 1; // Reset alpha
         ctx.shadowBlur = 0;  // Reset shadow
 
+        // Helper function: Fisher-Yates shuffle
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
         // Compute distances and select the 10 nearest points
         let nearest10 = points
             .map(p => ({ ...p, distance: (p.x - mousePos.x) ** 2 + (p.y - mousePos.y) ** 2 }))

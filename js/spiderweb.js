@@ -69,25 +69,51 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.globalAlpha = 1; // Reset alpha
         ctx.shadowBlur = 0;  // Reset shadow
 
-        // Compute distances from the current mouse position and select the 5 nearest points
-        let nearest = points
+        // Compute distances and select the 10 nearest points
+        let nearest10 = points
             .map(p => ({ ...p, distance: (p.x - mousePos.x) ** 2 + (p.y - mousePos.y) ** 2 }))
             .sort((a, b) => a.distance - b.distance)
-            .slice(0, 5);
+            .slice(0, 10);
 
-        // Draw curved, fading lines (using quadratic curves) from the mouse to each of the 5 nearest stars
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)'; // Semi-transparent white
-        ctx.lineWidth = 1;
+        // Shuffle the 10 nearest points and then select 5 random ones
+        let nearest = shuffleArray(nearest10).slice(0, 5);
+
+        // Set composite for a glowing effect
+        ctx.globalCompositeOperation = 'lighter';
+
         nearest.forEach(p => {
+            // Compute distance for dynamic adjustments
+            const dx = p.x - mousePos.x;
+            const dy = p.y - mousePos.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            // Dynamic control point offset (10% of distance)
+            let offset = distance * 0.1;
+            let cpX = (mousePos.x + p.x) / 2;
+            let cpY = (mousePos.y + p.y) / 2 - offset;
+            
+            // Variable line width (between 1 and 3)
+            ctx.lineWidth = Math.max(1, Math.min(3, distance / 100));
+            
+            // Animate opacity similar to stars (base opacity plus oscillation)
+            let timeFactor = (Math.sin(Date.now() / 500 + p.twinkle) + 1) / 2;
+            ctx.strokeStyle = `rgba(255, 255, 255, ${0.3 + 0.2 * timeFactor})`;
+
+            // Set a subtle glow
+            ctx.shadowBlur = 5;
+            ctx.shadowColor = 'white';
+
             ctx.beginPath();
             ctx.moveTo(mousePos.x, mousePos.y);
-            // Calculate a control point for curvature:
-            // This is the midpoint with a fixed vertical offset (-20) to create an arch.
-            let cpX = (mousePos.x + p.x) / 2;
-            let cpY = (mousePos.y + p.y) / 2 - 20;
             ctx.quadraticCurveTo(cpX, cpY, p.x, p.y);
             ctx.stroke();
+            
+            // Reset shadow after drawing each line
+            ctx.shadowBlur = 0;
         });
+
+        // Reset composite operation
+        ctx.globalCompositeOperation = 'source-over';
 
         requestAnimationFrame(draw);
     }

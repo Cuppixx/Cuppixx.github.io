@@ -95,28 +95,32 @@ document.addEventListener('DOMContentLoaded', function() {
             const dx = p.x - mousePos.x;
             const dy = p.y - mousePos.y;
             const distance = Math.sqrt(dx * dx + dy * dy);
-
+        
             // Dynamic control point offset (10% of distance)
-            let offset = distance * 0.1;
+            let offset = distance * 0.1;  // You can adjust this factor for more/less effect
+        
+            // Introduce random variation to the offset (random up/down/in/out)
+            let randomFactor = (Math.random() - 0.5) * 2; // Random value between -1 and 1
+            offset *= randomFactor; // Apply random factor to the offset to vary direction
+        
             let cpX = (mousePos.x + p.x) / 2;
-            let cpY = (mousePos.y + p.y) / 2 - offset;
-            
-            // Variable line width (between 1 and 3)
-            ctx.lineWidth = Math.max(1, Math.min(3, distance / 100));
-            
-            // Animate opacity similar to stars (base opacity plus oscillation)
-            let timeFactor = (Math.sin(Date.now() / 500 + p.twinkle) + 1) / 2;
-            ctx.strokeStyle = `rgba(255, 255, 255, ${0.3 + 0.2 * timeFactor})`;
-
+            let cpY = (mousePos.y + p.y) / 2 - offset; // Apply offset to make the curve more pronounced
+        
+            // Variable line width (between 0.5 and 1.75 based on distance)
+            ctx.lineWidth = Math.max(0.5, Math.min(1.75, 1.75 - distance / 100));
+        
+            // Set a fixed star color without any twinkling effect
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+        
             // Set a subtle glow
             ctx.shadowBlur = 5;
             ctx.shadowColor = 'white';
-
+        
             ctx.beginPath();
             ctx.moveTo(mousePos.x, mousePos.y);
             ctx.quadraticCurveTo(cpX, cpY, p.x, p.y);
             ctx.stroke();
-            
+        
             // Reset shadow after drawing each line
             ctx.shadowBlur = 0;
         });

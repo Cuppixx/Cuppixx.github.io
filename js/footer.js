@@ -6,11 +6,12 @@ function formatDate(date) {
 const lastModified = new Date(document.lastModified);
 const currentYear = new Date().getFullYear();
 
+const lastModifiedElement = document.getElementById('footer-last-modified');
 if (!isNaN(lastModified)) {
-    document.getElementById('footer-text').textContent =
-        'Last Edited: ' + formatDate(lastModified) + ' © ' + currentYear + ' Cuppixx';
+    lastModifiedElement.textContent = formatDate(lastModified);
 } else {
-    document.getElementById('footer-text').textContent =
-        'Last Edited: Unknown © ' + currentYear + ' Cuppixx';
+    lastModifiedElement.textContent = 'Unknown';
 }
- 
+
+const currentYearElement = document.getElementById('footer-current-year');
+currentYearElement.textContent = currentYear;

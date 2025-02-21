@@ -94,6 +94,10 @@ main {
     right: 5px;
 }
 
+#footer a {
+    text-decoration: none;
+}
+
 .socials {
     padding: 5px;
     background-color: inherit;

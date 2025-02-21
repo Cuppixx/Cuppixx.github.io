@@ -125,8 +125,8 @@ main {
 
 .font-switcher {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 3px;
+    right: 3px;
     font-size: 24px;
     border: none;
     transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
@@ -134,7 +134,11 @@ main {
 
 .font-switcher:hover {
     color: #957bb5;
-    transform: scale(0.95);
+    transform: scale(0.85);
+}
+
+.font-switcher:active {
+    color: #634883;
 }
 
 #portfolio-overview {

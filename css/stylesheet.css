@@ -123,6 +123,13 @@ main {
     font-size: 28px;
 }
 
+.font-switcher {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 24px;
+}
+
 #portfolio-overview {
     display: flex;
     align-items: flex-start;

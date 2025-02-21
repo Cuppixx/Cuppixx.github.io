@@ -512,3 +512,8 @@ main {
 #portfolio-projects {
     display: flex;
 }
+
+#blog-overview {
+    display: flex;
+    flex-direction: column;
+}

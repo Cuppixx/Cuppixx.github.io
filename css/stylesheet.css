@@ -90,8 +90,8 @@ main {
 #footer {
     text-align: right;
     position: absolute;
-    bottom: 2;
-    right: 5;
+    bottom: 2px;
+    right: 5px;
 }
 
 .socials {

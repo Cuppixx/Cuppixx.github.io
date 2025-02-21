@@ -87,6 +87,13 @@ main {
     position: relative;
 }
 
+#footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .socials {
     padding: 5px;
     background-color: inherit;

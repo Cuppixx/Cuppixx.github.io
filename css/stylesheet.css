@@ -583,30 +583,42 @@ main {
     flex-direction: column;
     margin: 15px auto;
     padding: 25px;
+    position: relative;
 }
 
 .project-preview img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
-.project-preview > .project-preview-button-container{
+.project-preview-button-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    transform: translateY(-50%);
+    padding: 0 15px;
+    pointer-events: none;
 }
 
-.project-preview > .project-preview-button-container button {
+.project-preview-button-container button {
     background: transparent;
     border: 3px solid #333;
     border-radius: 50%;
     transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    pointer-events: auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #333;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.project-preview > .project-preview-button-container button:hover {
-    border-color: #957bb5;
+.project-preview-button-container button:hover {
     color: #957bb5;
+    border-color: #957bb5;
 }
 
 .large-bold {

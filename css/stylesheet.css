@@ -572,11 +572,18 @@ main {
     text-decoration: none;
     font-size: 19px;
     transition: transform 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 5px;
 }
 
 .project-section a:hover {
-    text-decoration: initial;
-    transform: scale(0.85);
+    text-decoration: underline;
+    transform: scale(0.90);
+}
+
+.project-section a i {
+    margin-right: 5px;
 }
 
 .project-section:hover {

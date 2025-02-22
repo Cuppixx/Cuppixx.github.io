@@ -560,3 +560,7 @@ main {
 .project-section ul {
     padding-left: 20px;
 }
+
+.project-section b {
+    font-size: 22px;
+}

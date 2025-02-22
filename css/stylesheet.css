@@ -517,3 +517,11 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.project-section {
+    max-width: 95%;
+    box-shadow: inherit;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 10px;
+}

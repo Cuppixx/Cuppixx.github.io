@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
+            script-src-elem 'self' https://kit.fontawesome.com;
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
+            connect-src 'self' https://ka-f.fontawesome.com;
+            manifest-src 'self';
+            img-src 'self' data:;
+            media-src 'self';
+            object-src 'none';
+            worker-src 'none';
+            base-uri 'self';
+            upgrade-insecure-requests;
+        ">
+        
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+        <title>Cuppixx - Project Template</title>
+
+        <!-- Preconnect for Font Optimization -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="../../../css/stylesheet.css">
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
+        <script src="../../../js/load_navbar.js" defer></script>
+        <script src="../../../js/position_socials.js" defer></script>
+        <script src="../../../js/copy_email.js" defer></script>
+        <script src="../../../js/spiderweb.js" defer></script>
+        <script src="../../../js/footer.js" defer></script>
+    </head>
+    
+    <body>
+        <!-- Canvas -->
+        <canvas id="spiderweb"></canvas>
+
+        <!-- Navbar -->
+        <div id="navbar"></div>
+
+         <!-- Main -->
+         <main>
+            <!-- Portfolio Overview -->
+            <section id="portfolio-overview">
+                <div id="portfolio-info-box">
+                    <h1>
+                        <b>Project Type: </b>
+                        <i>Academic, Personal, Professional, Self-Educational, etc.</i>
+                    </h1>
+
+                    <h1>
+                        <b>Project Category: </b>
+                        <i>Asset, Educational, Game, Software, Template, etc.</i>
+                    </h1>
+
+                    <h1>
+                        <b>Role: </b>
+                        <i>Advisor, Backend, Designer, Frontend, Fullstack, Solo developer, Team lead, etc.</i>
+                    </h1>
+
+                    <h1>
+                        <b>Date: </b>
+                        <i>Start Date - End Date</i>
+                    </h1>
+
+                    <h1>
+                        <b>Technologies Used: </b>
+                        <code>Language/Framework/Tool 1</code>, <code>Language/Framework/Tool 2</code>, <code>Language/Framework/Tool 3</code>
+                    </h1>
+                </div>
+
+                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer">
+                    <img src="../../../images/placeholder.jpg" alt="Placeholder Image" class="profile-image" loading="lazy">
+                </a>
+            </section>
+
+
+            <!-- Project Overview -->
+            <section class="project-section">
+                <h2>Overview</h2>
+                <p>
+                    A brief description of the project (2-3 sentences),
+                    highlighting the purpose, goals, and key features.
+                </p>
+            </section>
+
+
+            <!-- Project Images -->
+            <section class="project-section">
+                <img src="../../../images/placeholder.jpg" alt="Placeholder Image" loading="lazy">
+            </section>
+
+
+            <!-- Project Contributions -->
+            <section class="project-section">
+                <h2>Key Contributions</h2>
+                <ul>
+                    <li>List specific tasks or roles you had within the project.</li>
+                    <li>Highlight what you personally added or developed.</li>
+                    <li>Focus on measurable outcomes or key functionality you delivered.</li>
+                </ul>
+            </section>
+
+
+            <!-- Project Challenges -->
+            <section class="project-section">
+                <h2>Challenges & Solutions</h2>
+                <ul>
+                    <li>Describe any major technical challenges you faced.</li>
+                    <li>Mention the solutions or approaches you implemented to overcome them.</li>
+                </ul>
+            </section>
+
+
+            <!-- Project Results -->
+            <section class="project-section">
+                <h2>Results & Impact</h2>
+                <ul>
+                    <li>Quantify the success of the project (e.g., user engagement, performance improvements, etc.).</li>
+                    <li>Mention any relevant feedback, metrics, or achievements tied to this project.</li>
+                </ul>
+            </section>
+
+
+            <!-- Project Links -->
+            <section class="project-section">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Project Repository</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Live Demo / Website</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Video / Showcase</a></li>
+                </ul>
+            </section>
+
+
+            <!-- Main Footer -->
+            <section id="footer">
+                <p>
+                    Last Edited: <span id="footer-last-modified"></span>
+                    <a href="https://github.com/Cuppixx/Cuppixx.github.io" target="_blank" rel="noopener noreferrer"> © <span id="footer-current-year"></span> Cuppixx</a>
+                </p>
+            </section>
+
+            
+            <!-- Social Media Links -->
+            <aside class="socials">
+                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer" style="--hover-color: #6e5494;"> <i class="fa-brands fa-github"></i></a>
+                <a href="#" class="copy-email" style="--hover-color: #1A73E8;"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer" style="--hover-color: #D44638;"> <i class="fa-brands fa-itch-io"></i></a>
+                <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer" style="--hover-color: #9146FF;"> <i class="fa-brands fa-twitch"></i></a>
+            </aside>
+        </main>
+    </body>
+</html>

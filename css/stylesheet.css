@@ -546,18 +546,9 @@ main {
     transition: border-width 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.project-preview {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 15px auto;
-    padding: 25px;
-}
-
-.project-preview img {
-    width: 100%;
-    height: auto;
+.project-section:hover {
+    border-width: 3px;
+    border-color: #957bb5;
 }
 
 .project-section ul {
@@ -578,7 +569,6 @@ main {
 }
 
 .project-section a:hover {
-    text-decoration: underline;
     transform: scale(0.90);
 }
 
@@ -586,9 +576,37 @@ main {
     margin-right: 5px;
 }
 
-.project-section:hover {
-    border-width: 3px;
+.project-preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 25px;
+}
+
+.project-preview img {
+    width: 100%;
+    height: auto;
+}
+
+.project-preview > .project-preview-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.project-preview > .project-preview-button-container button {
+    background: transparent;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.project-preview > .project-preview-button-container button:hover {
     border-color: #957bb5;
+    color: #957bb5;
 }
 
 .large-bold {

@@ -561,6 +561,10 @@ main {
     padding-left: 23px;
 }
 
+.project-section li {
+    margin: 4px 0;
+}
+
 .large-bold {
-    font-size: 24px;
+    font-size: 22px;
 }

@@ -592,6 +592,8 @@ main {
     max-height: 100%;
     object-fit: contain;
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .project-preview-button-container {
@@ -614,16 +616,17 @@ main {
     padding: 25px 30px;
     font-size: 18px;
     color: #333;
-    background-color: transparent;
+    background-color: #f4f4f4;
     cursor: pointer;
 }
 
 .project-preview-button-container button:hover {
     color: #957bb5;
+    transform: scale(0.90);
 }
 
 .project-preview-button-container button:active {
-    transform: scale(0.90);
+    transform: scale(0.82);
 }
 
 .large-bold {

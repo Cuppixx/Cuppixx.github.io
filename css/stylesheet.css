@@ -153,14 +153,14 @@ main {
     padding: 15px;
 }
 
-#portfolio-overview > #portfolio-info-box {
+#info-box {
     position: relative;
     margin-right: 15px;
     margin-bottom: 15px;
     padding: 7px 0 7px 10px;
 }
 
-#portfolio-overview > #portfolio-info-box::before {
+#info-box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -497,12 +497,12 @@ main {
         font-size: 24px;
     }
 
-    #portfolio-overview > #portfolio-info-box {
+    #info-box {
         margin-right: 0;
         padding-left: 0;
     }
 
-    #portfolio-overview > #portfolio-info-box::before {
+    #info-box::before {
         width: 0;
     }      
 }
@@ -543,6 +543,20 @@ main {
     padding: 10px;
 }
 
+.project-preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.project-preview img {
+    width: 100%;
+    height: auto;
+}
+
 .project-section ul {
-    padding-left: 30px;
+    padding-left: 20px;
 }

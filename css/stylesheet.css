@@ -568,9 +568,17 @@ main {
 
 .project-section a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .large-bold {
     font-size: 22px;
+}
+
+.custom-h1 {
+    font-size: 38px;
+    margin-bottom: 28px;
+    text-align: right;
+    font-family: "Dancing Script", sans-serif;
+    transform: rotate(13deg) translateY(18px);
 }

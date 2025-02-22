@@ -566,6 +566,11 @@ main {
     margin: 4px 0;
 }
 
+.project-section a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .large-bold {
     font-size: 22px;
 }

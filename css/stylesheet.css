@@ -518,10 +518,31 @@ main {
     flex-direction: column;
 }
 
+
+
+#project-main {
+    min-width: 358px;
+    max-width: 1100px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.1, 0.3);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    position: relative;
+}
+
 .project-section {
-    max-width: 95%;
+    width: 100%;
     box-shadow: inherit;
     border-radius: 8px;
     margin: 15px auto;
     padding: 10px;
+}
+
+.project-section ul {
+    padding-left: 30px;
 }

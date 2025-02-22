@@ -549,7 +549,7 @@ main {
     justify-content: center;
     flex-direction: column;
     margin: 15px auto;
-    padding: 20px;
+    padding: 25px;
 }
 
 .project-preview img {
@@ -558,9 +558,9 @@ main {
 }
 
 .project-section ul {
-    padding-left: 20px;
+    padding-left: 23px;
 }
 
-.project-section b {
-    font-size: 22px;
+.large-bold {
+    font-size: 24px;
 }

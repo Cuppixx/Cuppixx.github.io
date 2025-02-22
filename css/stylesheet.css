@@ -580,7 +580,6 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     margin: 15px auto;
     padding: 25px;
     position: relative;
@@ -599,7 +598,7 @@ main {
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
-    padding: 0 15px;
+    padding: 0 38px;
     pointer-events: none;
 }
 
@@ -607,9 +606,9 @@ main {
     background: transparent;
     border: 3px solid #333;
     border-radius: 50%;
-    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, transform 0.4s ease-in-out;
     pointer-events: auto;
-    padding: 10px 15px;
+    padding: 25px 30px;
     font-size: 18px;
     color: #333;
     background-color: transparent;
@@ -618,7 +617,10 @@ main {
 
 .project-preview-button-container button:hover {
     color: #957bb5;
-    border-color: #957bb5;
+}
+
+.project-preview-button-container button:active {
+    transform: scale(0.90);
 }
 
 .large-bold {

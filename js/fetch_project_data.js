@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
 
+            // Extract the project category
+            const categoryElem = doc.getElementById('project-category');
+            if (categoryElem) {
+                let categoryText = categoryElem.innerText.trim();
+                const commaIndex = categoryText.indexOf(',');
+                if (commaIndex !== -1) {
+                    categoryText = categoryText.substring(0, commaIndex).trim();
+                }
+                card.querySelector('.project-category').innerText = "Category: " + categoryText;
+            }
+
             // Extract the title
             const titleElem = doc.getElementById('project-title');
             if (titleElem) {

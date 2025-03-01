@@ -22,10 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // Extract the overview text
             const overviewElem = doc.getElementById('project-overview');
             if (overviewElem) {
-                const overviewText = overviewElem.querySelector('p').innerText.trim();
+                let overviewText = overviewElem.querySelector('p').innerText.trim();
+                const dotIndex = overviewText.indexOf('.');
+                if (dotIndex !== -1) {
+                    overviewText = overviewText.substring(0, dotIndex + 1);
+                }
                 card.querySelector('.project-card-content p').innerText = overviewText;
             }
-    
+
             // Extract the image
             const imageElem = doc.querySelector('#project-image img');
             if (imageElem) {
@@ -61,4 +65,3 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(err => console.error('Error fetching project data from', projectUrl, err));
     });
 });
-  

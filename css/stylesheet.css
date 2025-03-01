@@ -308,6 +308,7 @@ main {
 }
 
 .skill-item {
+    z-index: 2;
     background: var(--bg-color, #957bb5);
     padding: 8px;
     margin: 5px 10px 5px 0;

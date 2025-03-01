@@ -553,11 +553,10 @@ main {
     z-index: 2;
     font-size: 25px;
     color: #333;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .project-page:hover {
-    transform: scale(0.90);
     color: #007acc;
 }
 

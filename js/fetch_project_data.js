@@ -37,8 +37,28 @@ document.addEventListener('DOMContentLoaded', () => {
             if (repoLinkElem) {
                 card.querySelector('.project-card-content a').href = repoLinkElem.href;
             }
+
+            // Extract the technologies
+            const skillsContainer = doc.getElementById("skills");
+            if (skillsContainer) {
+                const codeElements = skillsContainer.querySelectorAll("code");
+                const skills = Array.from(codeElements).map(el => el.textContent.trim());
+
+                const cardSkillsContainer = card.querySelector(".portfolio-skills-content");
+                if (cardSkillsContainer) {
+                    cardSkillsContainer.innerHTML = "";
+                    skills.forEach(skill => {
+                        const div = document.createElement("div");
+                        div.className = "skill-item";
+                        const p = document.createElement("p");
+                        p.textContent = skill;
+                        div.appendChild(p);
+                        cardSkillsContainer.appendChild(div);
+                    });
+                }
+            }
         })
-        .catch(err => console.error('Error fetching project data from', projectUrl, err));
+      .catch(err => console.error('Error fetching project data from', projectUrl, err));
     });
 });
   

@@ -509,9 +509,57 @@ main {
 
 /* TODO Sections */
 
-#portfolio-projects {
+/* Container for all project cards */
+#project-container {
     display: flex;
-}
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual project card styling */
+  .project-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33.333% - 40px); /* Three cards per row with gap */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Project card image styling */
+  .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Title and content styling */
+  .project-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .project-card-content p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Link styling */
+  .project-card-content a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card-content a:hover {
+    text-decoration: underline;
+  }
 
 #blog-overview {
     display: flex;

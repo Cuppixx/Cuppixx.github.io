@@ -519,6 +519,7 @@ main {
 }
 
 .project-card {
+    background-color: #f4f4f4;
     max-width: 338px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -528,7 +529,6 @@ main {
 }
   
 .project-card:hover {
-    background-color: #f4f4f4;
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }

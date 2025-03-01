@@ -465,7 +465,7 @@ main {
 
 /* Media Queries */
 
-@media (max-width: 1125px) {
+@media (max-width: 1100px) {
     main {
         max-width: 80vw;
     }
@@ -546,6 +546,14 @@ main {
     z-index: 1;
 }
 
+.project-page {
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: 2;
+    font-size: 20px;
+}
+
 .project-card img {
     width: 100%;
     height: auto;
@@ -553,13 +561,12 @@ main {
 }
 
 .project-card p.project-category {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .project-card h3 {
-    margin: 10px 0;
-    margin-top: 20px;
-    font-size: 20px;
+    margin: 4px 0 18px 0;
+    font-size: 24px;
 }
 
 .project-card-content {

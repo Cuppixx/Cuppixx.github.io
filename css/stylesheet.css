@@ -175,7 +175,7 @@ main {
 .profile-image {
     margin-bottom: 30px;
     width: 100%;
-    max-width: 225px;
+    max-width: 255px;
     min-width: 112px;
     height: auto;
     border-radius: 15%;
@@ -557,7 +557,7 @@ main {
 }
 
 .project-page:hover {
-    transform: scale(0.85);
+    transform: scale(0.90);
     color: #007acc;
 }
 
@@ -565,25 +565,8 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    position: relative;
+    clip-path: polygon(70px 0, 100% 0, 100% 100%, 0 100%, 0 70px);
 }
-
-.project-card img::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    clip-path: polygon(
-      15px 0,
-      100% 0,       
-      100% 100%,      
-      0 100%,    
-      0 15px
-    );
-  }
 
 .project-card p.project-category {
     margin-top: 20px;

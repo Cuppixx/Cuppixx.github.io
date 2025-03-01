@@ -716,6 +716,14 @@ main {
     transform: scale(0.82);
 }
 
+.project-preview-button-container button.next-btn {
+    margin-right: 25px;
+}
+
+.project-preview-button-container button.prev-btn {
+    margin-left: 25px;
+}
+
 .large-bold {
     font-size: 22px;
 }

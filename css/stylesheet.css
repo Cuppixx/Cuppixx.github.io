@@ -514,7 +514,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 25px auto;
+    margin: -25px auto 25px auto;
     width: 96%;
     padding: 20px 0;
 }

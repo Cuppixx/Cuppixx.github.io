@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
+            script-src-elem 'self' https://kit.fontawesome.com;
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
+            connect-src 'self' https://ka-f.fontawesome.com;
+            manifest-src 'self';
+            img-src 'self' data:;
+            media-src 'self';
+            object-src 'none';
+            worker-src 'none';
+            base-uri 'self';
+            upgrade-insecure-requests;
+        ">
+        
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+        <title>{{html_title}}</title>
+
+        <!-- Preconnect for Font Optimization -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/css/stylesheet.css">
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
+        <script src="/js/spiderweb.js" defer></script>
+        <script src="/js/cycle_image.js" defer></script>
+        <script src="/js/footer.js" defer></script>
+    </head>
+    
+    <body>
+        <!-- Canvas -->
+        <canvas id="spiderweb"></canvas>
+
+         <!-- Main -->
+         <main id="project-main">
+            <!-- Project Titel -->
+            <section><h1 id="project-title" class="custom-h1"><u>{{project_title}}</u></h1></section>
+
+            <!-- Project Info Box -->
+            <section id="info-box">
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Project Type: </b>
+                    {{project_type}}
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Project Category: </b>
+                    <span id="project-category">{{project_category}}</span>
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Technologies Used: </b>
+                    <span id="skills">{{project_technologies}}</span>
+                </p>                
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Role: </b>
+                    {{project_role}}
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Date: </b>
+                    {{project_date}}
+                </p>
+            </section>
+
+
+            <!-- Project Overview -->
+            <section class="project-section" id="project-overview">
+                <h2>Overview</h2>
+                <p>
+                    {{project_overview}}
+                </p>
+            </section>
+
+
+            <!-- Project Links -->
+            <section class="project-section" id="project-links">
+                <p>
+                    {{project_links}}
+                </p>
+            </section>
+
+
+            <!-- Project Images -->
+            <section class="project-preview" id="project-image" data-images='{{project_images}}'>
+                <img src="{{project_image_main}}" alt="Image" loading="lazy">
+                <div class="project-preview-button-container">
+                    <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </section>
+
+
+            <!-- Project Contributions -->
+            <section class="project-section">
+                <h2>Key Contributions</h2>
+                <ul>
+                    {{project_contributions_list}}
+                </ul>
+            </section>
+
+
+            <!-- Project Challenges -->
+            <section class="project-section">
+                <h2>Challenges & Solutions</h2>
+                <ul>
+                    {{project_challenges_list}}
+                </ul>
+            </section>
+
+
+            <!-- Project Results -->
+            <section class="project-section" style="margin-bottom: 25px;">
+                <h2>Results & Impact</h2>
+                <ul>
+                    {{project_results_list}}
+                </ul>
+            </section>
+
+
+            <!-- Main Footer -->
+            <section id="footer">
+                <p>
+                    Last Edited: <span id="footer-last-modified"></span>
+                    <a href="https://github.com/Cuppixx/Cuppixx.github.io" target="_blank" rel="noopener noreferrer"> © <span id="footer-current-year"></span> Cuppixx</a>
+                </p>
+            </section>
+
+        </main>
+    </body>
+</html>

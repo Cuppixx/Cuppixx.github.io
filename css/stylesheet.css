@@ -327,6 +327,12 @@ main {
     margin: auto 4px;
 }
 
+.skill-item img {
+    max-width: 17px;
+    height: auto;
+    transform: translateY(3px) scale(1.2);
+}
+
 #portfolio-skills h2 {
     margin-top: 20px;
     font-size: 25px;

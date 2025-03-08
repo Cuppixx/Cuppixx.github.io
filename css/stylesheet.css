@@ -743,3 +743,19 @@ main {
     font-family: "Dancing Script", sans-serif;
     transform: rotate(13deg) translateY(15px);
 }
+
+.custom-h1-2 {
+    font-size: 44px;
+    margin-bottom: 28px;
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+}
+
+.portfolio-projects-container {
+    margin: 25px auto;
+    width: 96%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: inherit;
+    display: flex;
+}

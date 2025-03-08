@@ -330,6 +330,7 @@ main {
 .skill-item img {
     max-width: 19px;
     height: auto;
+    margin-right: 1px;
     transform: translateY(3px) scale(1.2);
 }
 

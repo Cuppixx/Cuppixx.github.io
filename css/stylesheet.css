@@ -322,13 +322,13 @@ main {
 }
 
 .skill-item p {
-    font-size: 17px;
+    font-size: 19px;
     color: #f4f4f4;
     margin: auto 4px;
 }
 
 .skill-item img {
-    max-width: 17px;
+    max-width: 19px;
     height: auto;
     transform: translateY(3px) scale(1.2);
 }

@@ -758,3 +758,13 @@ main {
     border-radius: 8px;
     box-shadow: inherit;
 }
+
+#project-links {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 4px;
+    border: none;
+    background-color: white;
+    width: fit-content;
+}

@@ -38,8 +38,8 @@ const projectData = {
     `,
     project_links: `
         <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-thumbtack"></i>Project Repository</a><b class="large-bold">|</b>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-desktop"></i>Live Demo / Website</a><b class="large-bold">|</b>
-        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-play"></i>Video / Showcase</a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i>Live Demo / Website</a><b class="large-bold">|</b>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i>Video / Showcase</a>
     `,
     project_images: '["../../../../images/placeholder.jpg", "../../../../images/profile.png", "../../../../images/profile_alt.png"]',
     project_image_main: "../../../../images/placeholder.jpg",

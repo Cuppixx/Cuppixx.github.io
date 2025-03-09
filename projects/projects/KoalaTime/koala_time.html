@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' https://kit.fontawesome.com;
+            script-src-elem 'self' https://kit.fontawesome.com;
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+            font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com;
+            connect-src 'self' https://ka-f.fontawesome.com;
+            manifest-src 'self';
+            img-src 'self' data:;
+            media-src 'self';
+            object-src 'none';
+            worker-src 'none';
+            base-uri 'self';
+            upgrade-insecure-requests;
+        ">
+        
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+        <title>Cuppixx - KoalaTime_Take-A-Break</title>
+
+        <!-- Preconnect for Font Optimization -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="/css/stylesheet.css">
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
+        <script src="/js/spiderweb.js" defer></script>
+        <script src="/js/cycle_image.js" defer></script>
+        <script src="/js/footer.js" defer></script>
+    </head>
+    
+    <body>
+        <!-- Canvas -->
+        <canvas id="spiderweb"></canvas>
+
+         <!-- Main -->
+         <main id="project-main">
+            <!-- Project Titel -->
+            <section><h1 id="project-title" class="custom-h1"><u>KoalaTime_Take-A-Break</u></h1></section>
+
+            <!-- Project Info Box -->
+            <section id="info-box">
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Project Type: </b>
+                    Personal, Professional
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Project Category: </b>
+                    <span id="project-category">Engine Asset</span>
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Technologies Used: </b>
+                    <span id="skills"><code>Godot</code>, <code>GDScript</code></span>
+                </p>                
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Role: </b>
+                    Solo developer
+                </p>
+
+                <p style="padding: 5px 0;">
+                    <b class="large-bold">Date: </b>
+                    March 14th 2024 - May 19th 2024
+                </p>
+            </section>
+
+
+            <!-- Project Overview -->
+            <section class="project-section" id="project-overview">
+                <h2>Overview</h2>
+                <p>
+                    
+        KoalaTime allows users to set up a work/break timer that reminds them to take a break after a specified period.
+        I originally developed the asset for personal use and later published it to the Godot Asset Store.
+        My goal was to improve my workflow by incorporating small breaks to recharge during work sessions.
+        The project was purposefully kept minimalistic to maintain simplicity and a visually clean design.
+        The asset includes sounds, images, and a few customization options, such as displaying your own images during break time.
+    
+                </p>
+            </section>
+
+
+            <!-- Project Images -->
+            <section class="project-preview" id="project-image" data-images='["../images/readme-example.png", "../images/readme-example2.png", "../images/preview-example.png"]'>
+                <img src="../images/readme-example.png" alt="Image" loading="lazy">
+                <div class="project-preview-button-container">
+                    <button class="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </section>
+
+
+            <!-- Project Contributions -->
+            <section class="project-section">
+                <h2>Key Contributions</h2>
+                <ul>
+                    
+        <li>Solo development.</li>
+    
+                </ul>
+            </section>
+
+
+            <!-- Project Challenges -->
+            <section class="project-section">
+                <h2>Challenges & Solutions</h2>
+                <ul>
+                    
+        <li>None</li>
+        <p>
+            The project itself wasn't what I would consider difficult;
+            there were no challenges that caused me to get stuck during development.
+            However, a few notable features, while not challenging, were interesting to implement.
+            One of these was a recursive algorithm that searches through the project's file structure to collect any images the user has provided,
+            allowing for a highly flexible file structure. No matter how complex or nested, it will return every image.
+            Overall a great learning experience and introduction to engine assets.
+        </p>
+    
+                </ul>
+            </section>
+
+
+            <!-- Project Results -->
+            <section class="project-section" style="margin-bottom: 25px;">
+                <h2>Results & Impact</h2>
+                <ul>
+                    
+        <li>As of October 2024, the project has received a total of 3 stars on GitHub.</li>
+        <li>Throughout its development the project has had over 300 unique visitors, according to GitHub's traffic tool.</li>
+        <li>After the last commit, the project had an averaged 1 to 2 unique visitors every two weeks, again based on data from GitHub's traffic tool.</li>
+        <li>Feedback from various users has been positive.
+        They noted that the plugin looks visually clean. The overall concept was well received,
+        and several twitch streamers mentioned they enjoy using it.</li>  
+    
+                </ul>
+            </section>
+
+
+            <!-- Project Links -->
+            <section class="project-section" id="project-links">
+                <p>
+                    
+        <a href="https://github.com/Cuppixx/KoalaTime_Take-A-Break" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-thumbtack"></i>Project Repository</a><b class="large-bold">|</b>
+        <a href="https://godotengine.org/asset-library/asset/2676" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe"></i>Godot Asset Store</a>
+    
+                </p>
+            </section>
+
+
+            <!-- Main Footer -->
+            <section id="footer">
+                <p>
+                    Last Edited: <span id="footer-last-modified"></span>
+                    <a href="https://github.com/Cuppixx/Cuppixx.github.io" target="_blank" rel="noopener noreferrer"> © <span id="footer-current-year"></span> Cuppixx</a>
+                </p>
+            </section>
+
+        </main>
+    </body>
+</html>

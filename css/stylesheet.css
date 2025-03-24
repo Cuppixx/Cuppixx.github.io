@@ -528,12 +528,13 @@ main {
     justify-content: flex-start;
     padding: 20px 0;
     margin: -14px;
+    margin-top: 0px;
 }
 
 .project-card {
     background-color: #f4f4f4;
     max-width: 405px;
-    height: auto;
+    height: min-content;
     border-radius: 8px;
     padding: 10px;
     margin: 15px;

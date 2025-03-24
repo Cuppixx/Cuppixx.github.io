@@ -183,8 +183,6 @@ main {
     max-width: 255px;
     min-width: 112px;
     height: 100%;
-    max-height: 255px;
-    min-height: 112px;
     border-radius: 15%;
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
     border: 3px solid transparent;

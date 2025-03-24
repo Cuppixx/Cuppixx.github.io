@@ -147,33 +147,38 @@ main {
 
 #portfolio-overview {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 15px;
+    margin-bottom: 30px;
 }
 
 #info-box {
     position: relative;
     margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 7px 0 7px 10px;
+    padding: 7px 0 7px 22px;
+    flex-grow: 1;
+    box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #info-box::before {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 12px;
     width: 5px;
     height: 100%;
     background-color: #957bb5;
     mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 45%, #fff 55%, transparent);
 }
 
 .profile-image {
-    margin-bottom: 30px;
     width: 100%;
     max-width: 255px;
     min-width: 112px;

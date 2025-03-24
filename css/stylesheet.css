@@ -156,8 +156,8 @@ main {
 
 #info-box {
     position: relative;
-    margin-right: 15px;
-    padding: 7px 0 7px 22px;
+    margin-left: 50px;
+    padding: 7px 0 7px 8px;
     flex-grow: 1;
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
     border-radius: 8px;
@@ -170,19 +170,21 @@ main {
     content: '';
     position: absolute;
     top: 0;
-    left: 12px;
+    left: -3px;
     width: 5px;
     height: 100%;
     background-color: #957bb5;
     mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 45%, #fff 55%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #fff 30%, #fff 70%, transparent);
 }
 
 .profile-image {
     width: 100%;
     max-width: 255px;
     min-width: 112px;
-    height: auto;
+    height: 100%;
+    max-height: 255px;
+    min-height: 112px;
     border-radius: 15%;
     box-shadow: 0px 0px 12px rgba(0.584, 0.482, 0.710, 0.4);
     border: 3px solid transparent;

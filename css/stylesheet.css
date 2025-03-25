@@ -155,6 +155,7 @@ main {
 }
 
 #info-box {
+    font-size: 19px;
     position: relative;
     margin-left: 50px;
     padding: 7px 0 7px 10px;

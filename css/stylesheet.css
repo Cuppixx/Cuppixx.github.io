@@ -524,17 +524,16 @@ main {
 /* TODO Sections */
 
 #project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    column-count: 2;
     padding: 20px 0;
     margin: -14px;
     margin-top: 0px;
 }
 
 .project-card {
+    display: inline-block;
     background-color: #f4f4f4;
-    max-width: 405px;
+    max-width: 100%;
     height: min-content;
     border-radius: 8px;
     padding: 10px;

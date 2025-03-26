@@ -559,26 +559,10 @@ main {
     z-index: 1;
 }
 
-.project-page {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    z-index: 2;
-    font-size: 25px;
-    color: #333;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.project-page:hover {
-    transform: scale(0.90);
-    color: #007acc;
-}
-
 .project-card img {
     width: 100%;
     height: auto;
     display: block;
-    clip-path: polygon(70px 0, 100% 0, 100% 100%, 0 100%, 0 70px);
     border-radius: 8px;
 }
 

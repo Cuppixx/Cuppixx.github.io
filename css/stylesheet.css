@@ -328,7 +328,7 @@ main {
 }
 
 .skill-item p {
-    font-size: 19px;
+    font-size: 20px;
     color: #f4f4f4;
     margin: auto 4px;
 }
@@ -580,6 +580,7 @@ main {
     height: auto;
     display: block;
     clip-path: polygon(70px 0, 100% 0, 100% 100%, 0 100%, 0 70px);
+    border-radius: 8px;
 }
 
 .project-card p.project-category {

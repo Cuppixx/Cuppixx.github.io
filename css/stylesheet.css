@@ -678,8 +678,9 @@ main {
     max-height: 100%;
     object-fit: contain;
     display: block;
-    width: 100%;
+    width: max-content;
     height: auto;
+    border-radius: 20px;
 }
 
 .project-preview-button-container {
@@ -732,7 +733,6 @@ main {
     margin-bottom: 28px;
     text-align: right;
     font-family: "Dancing Script", sans-serif;
-    transform: rotate(13deg) translateY(15px);
 }
 
 .custom-h1-2 {
@@ -754,8 +754,9 @@ main {
     display: flex;
     justify-content: center;
     position: sticky;
-    bottom: 4px;
+    bottom: 7px;
     border: none;
     background-color: white;
     width: fit-content;
+    transform: scale(0.875);
 }

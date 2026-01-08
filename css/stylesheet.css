@@ -274,6 +274,7 @@ main {
 }
 
 .tab-content-timeline > .timeline-item a {
+    position: relative;
     z-index: 1;
 }
 

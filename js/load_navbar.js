@@ -34,8 +34,8 @@
                 const normalizedLinkHref = linkHref.replace(/^\/+/, '');
 
                 // Handle the root path scenario
-                const isCurrentPage = normalizedCurrentPath === normalizedLinkHref || 
-                                      (normalizedCurrentPath === '' && normalizedLinkHref === 'index.html') || 
+                const isCurrentPage = normalizedCurrentPath === normalizedLinkHref ||
+                                      (normalizedCurrentPath === '' && normalizedLinkHref === 'index.html') ||
                                       (`/${normalizedCurrentPath}` === normalizedLinkHref);
 
                 link.classList.toggle("active", isCurrentPage);

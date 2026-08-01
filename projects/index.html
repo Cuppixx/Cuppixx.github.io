@@ -19,7 +19,7 @@
             base-uri 'self';
             upgrade-insecure-requests;
         ">
-        
+
         <meta http-equiv="X-Frame-Options" content="DENY">
         <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
@@ -37,11 +37,10 @@
         <!-- JavaScript -->
         <script src="https://kit.fontawesome.com/04e2aa0780.js" crossorigin="anonymous" async></script>
         <script src="../../js/load_navbar.js" defer></script>
-        <script src="../../js/position_socials.js" defer></script>
         <script src="../../js/spiderweb.js" defer></script>
         <script src="../../js/footer.js" defer></script>
     </head>
-    
+
     <body>
         <!-- Canvas -->
         <canvas id="spiderweb"></canvas>
@@ -49,52 +48,20 @@
         <!-- Navbar -->
         <div id="navbar"></div>
 
-        <!-- Main -->
-        <main>
-            <h1 class="custom-h1-2">Welcome To My Projects</h1>
+        <!-- Site Relocation Overlay -->
+        <div class="site-relocation-overlay">
+            <div class="relocation-content">
+                <h2>-We've Moved-</h2>
+                <p>This page has been relocated to another location!</p>
+                <a href="https://Cuppixx.de" class="cta-button" target="_blank" rel="noopener noreferrer">
+                    Visit
+                </a>
+                <a href="../../index.html" class="secondary-link">Stay on cuppixx.github.io</a>
+            </div>
+        </div>
 
-            <!-- Excerpt Projects -->
-            <section class="portfolio-projects-container">
-                <h2 style="text-decoration: underline;">Excerpts from my latest projects:</h2>
-                <section id="project-container">
-                    <div class="project-card" data-project-url="../projects/projects/Template/template.html">
-                        <a class="project-card-overlay" href="../projects/projects/Template/template.html" target="_blank" rel="noopener noreferrer"></a>
-                        <img src="../images/placeholder.jpg" alt="Placeholder" loading="lazy">
-                        <p class="project-category">Project Category</p>
-                        <h3>Project Title</h3>
-                        <div class="project-card-content">
-                            <p>Project Description</p>
-                            <a class="source-link" href="#" target="_blank" rel="noopener noreferrer">Source</a>
-                        </div>
-                        <div class="portfolio-skills-content" style="--bg-color: #6e5494;"></div>
-                    </div>
-                    <div class="project-card" data-project-url="../projects/projects/Template/template.html">
-                        <a class="project-card-overlay" href="../projects/projects/Template/template.html" target="_blank" rel="noopener noreferrer"></a>
-                        <img src="../images/placeholder.jpg" alt="Placeholder" loading="lazy">
-                        <p class="project-category">Project Category</p>
-                        <h3>Project Title</h3>
-                        <div class="project-card-content">
-                            <p>Project Description</p>
-                            <a class="source-link" href="#" target="_blank" rel="noopener noreferrer">Source</a>
-                        </div>
-                        <div class="portfolio-skills-content" style="--bg-color: #6e5494;"></div>
-                    </div>
-                </section>
-            </section>
-
-
-            <!-- Browser Game -->
-            <section class="portfolio-projects-container">
-                <h2 style="text-align: right;">BrowserGameName - Play Right In Browser!!!</h2>
-            </section>
-            
-
-            <!-- Projects List -->
-            <section class="portfolio-projects-container">
-                <h2 style="text-align: center;">Discover Projects and Gists</h2>
-            </section>
-
-
+        <!-- Main (hidden content as fallback) -->
+        <main style="display: none;">
             <!-- Main Footer -->
             <section id="footer">
                 <p>
@@ -102,15 +69,6 @@
                     <a href="https://github.com/Cuppixx/Cuppixx.github.io" target="_blank" rel="noopener noreferrer"> © <span id="footer-current-year"></span> Cuppixx</a>
                 </p>
             </section>
-
-
-            <!-- Social Media Links -->
-            <aside class="socials">
-                <a href="https://github.com/Cuppixx" target="_blank" rel="noopener noreferrer" style="--hover-color: #6e5494;"> <i class="fa-brands fa-github"></i></a>
-                <a href="#" target="_blank" rel="noopener noreferrer" style="--hover-color: #1A73E8;"> <i class="fa-solid fa-envelope"></i></a>
-                <a href="https://cuppixx.itch.io" target="_blank" rel="noopener noreferrer" style="--hover-color: #D44638;"> <i class="fa-brands fa-itch-io"></i></a>
-                <a href="https://www.twitch.tv/cuppixd" target="_blank" rel="noopener noreferrer" style="--hover-color: #9146FF;"> <i class="fa-brands fa-twitch"></i></a>
-            </aside>
         </main>
     </body>
 </html>
